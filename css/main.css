@@ -12,7 +12,12 @@
 	top:0;
 	left:10;
 	right:0;
-	z-index: 9;
+	z-index: 11;
+}
+
+.float_center {
+  width:50%;
+  margin:0 auto;
 }
 
 .caption-inside {
@@ -74,7 +79,7 @@ ul.side_nav li a:hover {
 
 body {
 	/*font-family: "Quan", Verdana, sans-serif;*/
-	margin: 1rem;
+	/*margin: 1rem;*/
 	font-size: 1.25rem;
 }
 
@@ -125,9 +130,18 @@ a:active, a:hover, a:focus {
 
 }
 
+.nav-item {
+	display: inline-block;
+	color: white;
+	background-color: #DCB239;
+	font-size: 1.5rem;
+	padding: 0.35rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+}
+
 .bg1 {
 	height: 124px;
-	border: 1px solid #D3D3D3;
 	background-color: #FFF0F5; 
 
 }
@@ -161,6 +175,10 @@ a:active, a:hover, a:focus {
 	background-color: rgb(150,150,150);
 }
 
+.nav-item:active, .nav-item:hover, .nav-item:focus {
+	color: white;
+	background-color: rgb(150,150,150);
+}
 
 img {
 	  height:auto;
@@ -173,14 +191,14 @@ img {
   /*margin-top: 30px;*/
   /*margin-left: 150px;*/
   /*padding-right: 20px;*/
-  padding:30px;
-  padding-top: 70px;
+  padding:3rem;
+  padding-top: 7rem;
 }
 
 .venuephotos img{
 	float: left;
-	padding-top: 20px;
-	padding-right: 20px;
+	padding-top: 1.25rem;
+	padding-right: 3.25rem;
 }
 
 
@@ -191,11 +209,11 @@ img {
 .footer {
     background:#87CEFA;
    width:100%;
-   height:40px;   /* Height of the footer */
+   height:40px; 
   	float:bottom;
-   /*bottom:300;*/
-   left:0;
+   bottom:0px;
 }
+
 
 @media screen and (min-width: 480px) {
     img {
