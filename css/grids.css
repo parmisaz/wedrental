@@ -130,14 +130,14 @@ body {
 
 
 @media (min-width: 24.375em) {
-
+/*
 	.grid-col-1of4 {
 		width: 25%;
-	}
+	}*/
 
-	.grid-col-1of4:last-of-type {
+	/*.grid-col-1of4:last-of-type {
 		padding-left: 1rem;
-	}
+	}*/
 /*
 	.grid-col-1of4 {
 		width: 50%;
@@ -161,10 +161,10 @@ body {
 		padding-left: 1rem;
 	}
 
-	.grid-col-1of4 {
+/*	.grid-col-1of4 {
 		width: 25%;
 	}
-
+*/
 		body {
 		padding-top: 0.25rem;
 	}
