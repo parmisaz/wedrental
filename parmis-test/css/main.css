@@ -143,10 +143,8 @@ img {
     
 }
 
-.about p {
-
-    padding-left:7%;
-   
+.about {
+    padding-left:0;
 }
 
 .new-arrivals{
