@@ -73,6 +73,10 @@ each column should have a width of 100%: */
         margin:auto;
         padding:0;
     }
+
+    .purchase h3{
+    padding-top:0;
+}
     .photos {
         padding:0;
     }
@@ -85,8 +89,15 @@ each column should have a width of 100%: */
     .content{
     font-size: 1em;
     }
+  .new-arrivals {
+        text-align:center;
+        margin:auto;
+        padding:0;
+    }
 
-
+    .purchase h3{
+    padding-top:0;
+}
 /*    body {
         background-color: lightblue;  If the browser window is smaller than 500px, the background color will change to lightblue: 
     }*/

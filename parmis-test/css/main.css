@@ -14,7 +14,7 @@ p {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top:0.5em;
     margin-bottom:0.4em;
 }
@@ -91,7 +91,7 @@ h3 {
 .purchase a {
     text-decoration: none;
     color: #ffffff;
-    padding-bottom: 0.6em;
+    padding-bottom: 0.4em;
     font-size: 1.2vw;   
     background-color: #DD8D78;
     /*background-image: url("img/subtle_white_feathers.png");*/
@@ -111,6 +111,10 @@ h3 {
 
 }
 
+.purchase h3{
+    padding-top: 15px;
+}
+
 .content{
     font-family: 'Edwardian Script ITC';
     font-size: 1.3em;
@@ -119,6 +123,14 @@ h3 {
 
 }
 
+
+.content-collection{
+    font-family: 'Edwardian Script ITC';
+    font-size: 1.3em;
+    text-align:center;
+    padding-right:1em;
+
+}
 
 img {
 	height:auto;
@@ -133,6 +145,7 @@ img {
 
 .new-arrivals{
 	padding-top: 0;
+    padding-bottom: 1rem;
 	padding-right: 1.4rem;
 	width: 100%;
     vertical-align: text-top;
