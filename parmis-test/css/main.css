@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 html, body {
     font-family: "Lucida Sans", sans-serif;
     margin:0;
@@ -137,3 +141,30 @@ img {
     float:left;
 }
 
+
+
+
+
+
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -65px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.site-footer, .page-wrap:after {
+    height: 65px; 
+}
+
+
+.site-footer {
+    font-size:0.8em;
+    padding:6px;
+    background: #ADD8E6;
+    text-align:center;
+}
