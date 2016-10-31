@@ -44,13 +44,6 @@ of the elements */
     display: block;
 }*/
 
-/* If the browser window is smaller than 500px, the background color will change to lightblue: */
-
-@media only screen and (max-width: 500px) {
-    body {
-        /*background-color: lightblue;*/
-    }
-}
 
 /* When the screen (browser window) gets smaller than 768px, 
 each column should have a width of 100%: */
@@ -63,8 +56,48 @@ each column should have a width of 100%: */
 /*    .content{
     	padding-left: 30%;
     }*/
-    .purchase{
-    	width:100%;
+/*    .nav-main{
+        font-size: 2.3vw;
+    }*/
+/*    .content{
+        font-size: 3vw;    
+    }*/    
+
+    .purchase a {
+        font-size:1em;
+        width:100%;
+    }
+    .new-arrivals {
+        text-align:center;
+        margin:auto;
+        padding:0;
+    }
+    .photos {
+        padding:0;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .nav-main{
+        font-size: 0.8em;
+    }
+    .content{
+    font-size: 1em;
+    }
+
+
+/*    body {
+        background-color: lightblue;  If the browser window is smaller than 500px, the background color will change to lightblue: 
+    }*/
+}
+
+/*When the browser window becomes smaller than 300px (the size of the logo image), the logo will not display*/
+
+@media screen and (max-width: 300px) {
+    .logo{
+        display:none; 
+        }
+}
+
+
 

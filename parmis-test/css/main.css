@@ -4,6 +4,16 @@ html, body {
     height:100%;
 }
 
+p {
+    margin-top:0.5em;
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 1em;
+    margin-top:0.3em;
+    margin-bottom:0.4em;
+}
 .center {
     width: 50%;
     margin:0 auto;
@@ -68,6 +78,7 @@ html, body {
 .purchase{
   	padding-top: 1em;
   	padding-bottom: 2em;
+    padding-right:1.85vw;
  	margin:0 auto;
     text-align:right;
 }
@@ -111,43 +122,18 @@ img {
 
 .photos{
 	padding-left: 19%;
+    
 }
 
 .new-arrivals{
 	padding-top: 0;
 	padding-right: 1.4rem;
 	width: 100%;
-    text-align:right;
+    vertical-align: text-top;
+    /*text-align:right;*/
 }
 
-
-@media screen and (max-width: 768px) {
-/*    .nav-main{
-        font-size: 2.3vw;
-    }*/
-/*    .content{
-        font-size: 3vw;    
-    }*/    
-
-    .purchase a {
-        font-size:1em;
-    }
+.left{
+    float:left;
 }
-
-@media screen and (max-width: 500px) {
-    .nav-main{
-        font-size: 0.8em;
-    }
-    .content{
-    font-size: 1em;
-    }
-
-}
-
-@media screen and (max-width: 300px) {
-    .logo{
-        display:none;
-        }
-}
-
 
