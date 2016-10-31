@@ -9,13 +9,13 @@ html, body {
 }
 
 p {
-    margin-top:0.5em;
+    margin-top:0.7em;
     font-size: 0.8em;
 }
 
 h3 {
     font-size: 1em;
-    margin-top:0.3em;
+    margin-top:0.5em;
     margin-bottom:0.4em;
 }
 .center {
@@ -53,9 +53,9 @@ h3 {
     background-color: #0099cc;
 }
 
-
 .nav-main{
 	background-color: #ADD8E6; /*light blue */
+        background-image: url("img/seigaiha2.png");
     /*padding: 0 1.5% 0 .5%;*/
     text-decoration: none;
     color: white;
@@ -93,6 +93,7 @@ h3 {
     padding-bottom: 0.6em;
     font-size: 1.2vw;   
     background-color: #DD8D78;
+    /*background-image: url("img/subtle_white_feathers.png");*/
   
     padding-top: 6px;
     padding-left:42px;
@@ -167,4 +168,5 @@ img {
     padding:6px;
     background: #ADD8E6;
     text-align:center;
+    background-image: url("img/seigaiha2.png");
 }
