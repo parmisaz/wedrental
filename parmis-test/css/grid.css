@@ -1,3 +1,4 @@
+
 /* ensure padding and border are included in the total width and height
 of the elements */
 
@@ -56,9 +57,9 @@ each column should have a width of 100%: */
 /*    .content{
     	padding-left: 30%;
     }*/
-/*    .nav-main{
+    .nav-main{
         font-size: 2.3vw;
-    }*/
+    }
 /*    .content{
         font-size: 3vw;    
     }*/    
@@ -79,7 +80,7 @@ each column should have a width of 100%: */
 
 @media screen and (max-width: 500px) {
     .nav-main{
-        font-size: 0.8em;
+        font-size: 0.4em;
     }
     .content{
     font-size: 1em;
