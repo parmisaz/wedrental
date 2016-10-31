@@ -4,6 +4,10 @@ html, body {
     height:100%;
 }
 
+.center {
+    width:50%;
+    margin:0 auto;
+}
 
 .header {
     /*background-color: #ADD8E6; /*light blue */*/
@@ -62,15 +66,9 @@ html, body {
 
 
 .purchase{
-  	padding-top: 14px;
-  	padding-bottom: 10px;
-  	margin-top: 14px;
+  	padding-top: 1em;
+  	padding-bottom: 2em;
  	padding-left: 18%;
-    transition: 0.5s;
-}
-.purchase:hover{
-    color:#125232;
-    transition: 0.5s;
 }
 
 .purchase a {
@@ -78,7 +76,7 @@ html, body {
     color: #ffffff;
     padding-bottom: 10px;
     font-size: 1em;   
-    background-color: gold;
+    background-color: #DD8D78;
   
     padding-top: 6px;
     padding-left:42px;
@@ -88,19 +86,18 @@ html, body {
 }
 .purchase a:hover {
     transition: 0.5s;
-    color: #000000;
+    /*color: #000000;*/
     text-decoration: none;
+    background-color: #F9B9AA;
+    transition: 0.5s;
 
 }
 
 .content{
     font-family: 'Edwardian Script ITC';
     font-size: 1.3em;
-	/*float: left;*/
-    margin: 0 auto;
-    width: 50%;
     text-align:center;
-    padding-bottom:0;
+    padding-right:1.25em;
 
 }
 
@@ -123,13 +120,13 @@ img {
 
 
 @media screen and (max-width: 768px) {
-    .nav-main{
+/*    .nav-main{
         font-size: 2.3vw;
-    }
-    .content{
+    }*/
+/*    .content{
         font-size: 3vw;    
         margin:10vw;
-    }
+    }*/
 }
 
 @media screen and (max-width: 500px) {

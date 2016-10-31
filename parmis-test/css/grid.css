@@ -60,9 +60,9 @@ each column should have a width of 100%: */
     [class*="col-"] {
         width: 100%;
     }
-    .content{
+/*    .content{
     	padding-left: 30%;
-    }
+    }*/
     .purchase{
     	width:100%;
     }
