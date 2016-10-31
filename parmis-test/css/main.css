@@ -5,7 +5,7 @@ html, body {
 }
 
 .center {
-    width:50%;
+    width: 50%;
     margin:0 auto;
 }
 
@@ -29,7 +29,7 @@ html, body {
 }
 
 .menu li {
-    padding: 8px;
+    /*padding: 8px;*/
     margin-bottom: 7px;
     background-color :#33b5e5;
     color: #ffffff;
@@ -68,20 +68,21 @@ html, body {
 .purchase{
   	padding-top: 1em;
   	padding-bottom: 2em;
- 	padding-left: 18%;
+ 	margin:0 auto;
+    text-align:right;
 }
 
 .purchase a {
     text-decoration: none;
     color: #ffffff;
-    padding-bottom: 10px;
-    font-size: 1em;   
+    padding-bottom: 0.6em;
+    font-size: 1.2vw;   
     background-color: #DD8D78;
   
     padding-top: 6px;
     padding-left:42px;
     padding-right: 39px;
-    transition: 0.5s;
+    transition: 0.2s;
     
 }
 .purchase a:hover {
@@ -114,8 +115,9 @@ img {
 
 .new-arrivals{
 	padding-top: 0;
-	padding-left: 1rem;
+	padding-right: 1.4rem;
 	width: 100%;
+    text-align:right;
 }
 
 
@@ -125,8 +127,11 @@ img {
     }*/
 /*    .content{
         font-size: 3vw;    
-        margin:10vw;
-    }*/
+    }*/    
+
+    .purchase a {
+        font-size:1em;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -136,8 +141,13 @@ img {
     .content{
     font-size: 1em;
     }
+
+}
+
+@media screen and (max-width: 300px) {
     .logo{
         display:none;
-    }
+        }
 }
+
 
