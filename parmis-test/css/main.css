@@ -80,12 +80,12 @@ h3 {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2em;
-    transition:background-color 0.5s;
+    transition: 0.5s;
 }
 .nav-main  ul li a:hover {
     color: #000000;
     text-decoration: none;
-    transition:background-color 0.5s;
+    transition: 0.5s;
 }
 
 
