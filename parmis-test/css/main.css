@@ -18,6 +18,14 @@ h3 {
     margin-top:0.5em;
     margin-bottom:0.4em;
 }
+
+.about-bg {
+    background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
 .center {
     width: 50%;
     margin:0 auto;
@@ -55,10 +63,11 @@ h3 {
 
 .nav-main{
 	background-color: #ADD8E6; /*light blue */
-        background-image: url("img/seigaiha2.png");
+    background-image: url("img/seigaiha2.png");
   /*  padding: 0 1% 0 .3%;*/
     text-decoration: none;
     color: white;
+    font-size:.9em;
 
 }
 
@@ -71,12 +80,12 @@ h3 {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2em;
-    transition: 0.5s;
+    transition:background-color 0.5s;
 }
 .nav-main  ul li a:hover {
     color: #000000;
     text-decoration: none;
-    transition: 0.5s;
+    transition:background-color 0.5s;
 }
 
 
@@ -132,11 +141,21 @@ h3 {
 
 }
 
+
 img {
-	height:auto;
-	max-width: 90%;
+    height:auto;
+    max-width: 90%;
 }
 
+.clickable-image {
+    opacity: 0.7;
+    transition:opacity 0.2s;
+}
+
+.clickable-image:hover {
+    opacity: 1;
+    transition:opacity 0.3s;
+}
 
 .photos{
 	padding-left: 19%;

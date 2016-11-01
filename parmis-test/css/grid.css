@@ -15,7 +15,7 @@ of the elements */
 .col-1 {width: 8.33%;}
 .col-2 {
     width: 16.66%;
-display: inline-block;}
+    display: inline-block;}
 .col-3 {
 	width: 25%;
 	display: inline-block;
@@ -47,11 +47,11 @@ display: inline-block;}
    
 }*/
 
-/*.row::after {
+.col:after {
     content: "";
     clear: both;
     display: block;
-}*/
+}
 
 
 /* When the screen (browser window) gets smaller than 768px, 
