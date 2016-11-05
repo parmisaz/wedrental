@@ -2,13 +2,24 @@
     margin: 0;
 }
 
-html, body {
+html{
     font-family: "Lucida Sans", sans-serif;
     margin:0;
     height:100%;
 }
 
-p {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 12pt;
+        font-weight: 300;
+        color: #000000;
+    }
+
+    p {
     margin-top:0.7em;
     font-size: 0.8em;
 }
@@ -19,81 +30,122 @@ h3 {
     margin-bottom:0.4em;
 }
 
-.about-bg {
-    background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
+.nav-main
+    {
+    text-decoration: none;
+    position: absolute;
+    top: 2.4em;
+    right: 2em;
+    padding-top: 2.5em;
+    }
+
+.nav-main ul {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+
 }
 
-.center {
+.nav-main li
+    {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+    
+.nav-main li a, #menu li span
+    {
+        text-decoration: none;
+        padding: 1em 1.5em;
+        color: #FFF;
+    }
+    
+.nav-main li:hover a{
+        
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+    }
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+    .header-wrapper
+    {
+        overflow: hidden;
+        height: 40em;
+    }
+
+    #header
+    {
+        position: relative;
+        margin-top: 3em;
+        padding: 3em 0em;
+        background: #96063b;
+    }
+
+
+
+    .container
+    {
+        overflow: hidden;
+        margin: 0em auto;
+        width: 1200px;
+    }
+
+    .photos{
+    /*padding-left: 1%;
+    padding-right: 5%;*/
+
+    
+}
+
+    #page
+    {
+        overflow: hidden;
+        width: 1000px;
+        padding: 7em 100px 3em 100px;
+        background: #FFF;
+    }
+
+/* new arrival */
+    .title{
+    font-family: 'Edwardian Script ITC';
+    font-size: 1.3em;
+    text-align:center;
+    padding-right:1.25em;
+
+}
+
+/* homepage where new arrival goes */
+.container
+    {
+        overflow: hidden;
+        margin: 0em auto;
+        width: 1200px;
+    }
+
+    .center {
     width: 50%;
     margin:0 auto;
 }
 
-.header {
-    /*background-color: #ADD8E6; /*light blue */*/
-    color: #ffffff;
-    margin:1em auto; 
-    max-width:5em;
-    /*padding: 15px;*/
+.new-arrivals{
+    padding-top: 0;
+    padding-bottom: 1rem;
+    padding-right: 1.7rem;
+    width: 100%;
+    vertical-align: text-top;
+    /*text-align:right;*/
 }
-
-.logo {
-    max-width: 11em; 
-    padding-top: 0.3em;
-}
-
-.menu ul {
-    /*list-style-type: none;*/
-    margin: 0;
-    padding: 0;
-}
-
-.menu li {
-    /*padding: 8px;*/
-    margin-bottom: 7px;
-    background-color :#33b5e5;
-    color: #ffffff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-.menu li:hover {
-    background-color: #0099cc;
-}
-
-.nav-main{
-	background-color: #ADD8E6; /*light blue */
-    background-image: url("img/seigaiha2.png");
-  /*  padding: 0 1% 0 .3%;*/
-    text-decoration: none;
-    color: white;
-    font-size:.9em;
-
-}
-
-.nav-main ul li {
-    display: inline-block;
-    padding: .5em 2.3% .5em .5em ;
-    margin-right: .05%;
-}
-.nav-main  ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2em;
-    transition: 0.5s;
-}
-.nav-main  ul li a:hover {
-    color: #000000;
-    text-decoration: none;
-    transition: 0.5s;
-}
-
 
 .purchase{
-  	padding-top: 1em;
-  	padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
     padding-right:1.85vw;
- 	margin:0 auto;
+    margin:0 auto;
     text-align:right;
 }
 
@@ -124,83 +176,105 @@ h3 {
     padding-top: 15px;
 }
 
-.content{
-    font-family: 'Edwardian Script ITC';
-    font-size: 1.3em;
-    text-align:center;
-    padding-right:1.25em;
 
-}
-
-
-.content-collection{
-    font-family: 'Edwardian Script ITC';
-    font-size: 1.3em;
-    text-align:center;
-    padding-right:1em;
-
-}
-
-
-img {
-    height:auto;
-    max-width: 90%;
-}
-
+    
 .clickable-image {
     opacity: 0.7;
     transition:opacity 0.2s;
+    width: 320px;
 }
 
-.clickable-image:hover {
-    opacity: 1;
-    transition:opacity 0.3s;
-}
 
-.photos{
-	padding-left: 19%;
+#welcome
+    {
+        overflow: hidden;
+        width: 1000px;
+        margin-top: 3em;
+        padding: 4em 100px 3em 100px;
+        background: #FFF;
+    }
+
     
+    #welcome h2
+    {
+        padding-bottom: 1em;
+        font-size: 1.8em;
+        font-weight: 400;
+    }
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+    .boxA,
+    .boxB,
+    .boxC
+    {
+        width: 240px;
+    }
+
+    .boxA,
+    .boxB
+    {
+        float: left;
+        margin-right: 90px;
+    }
+    
+    .boxC
+    {
+        float: right;
+    }
+
+
+
+    #logo
+    {
+        position: absolute;
+        top: 1em;
+        left: 2em;
+
+    }
+    
+    #logo h1
+    {
+    }
+    
+    #logo a
+    {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+
+/*********************************************************************************/
+/* About page                                                                      */
+/*********************************************************************************/
+
+
+    .about-bg {
+    background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
-.about {
-    padding-left:0;
-}
-
-.new-arrivals{
-	padding-top: 0;
-    padding-bottom: 1rem;
-	padding-right: 1.4rem;
-	width: 100%;
-    vertical-align: text-top;
-    /*text-align:right;*/
-}
-
-.left{
-    float:left;
-}
 
 
-
-.page-wrap {
-    min-height: 100%;
-    margin-bottom: -65px; 
-}
-
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-
-.site-footer, .page-wrap:after {
+.footer, .page-wrap:after {
     height: 65px; 
 }
 
 
-.site-footer {
+.footer {
     font-size:0.8em;
     padding:6px;
     background: #ADD8E6;
     text-align:center;
     background-image: url("img/seigaiha2.png");
+}
+
+.contact{
+
+    padding-left: 10%;
 }
 

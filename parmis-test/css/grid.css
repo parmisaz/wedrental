@@ -4,7 +4,7 @@ of the elements */
 
 * {
 
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .full {
@@ -17,10 +17,10 @@ of the elements */
     width: 16.66%;
     display: inline-block;}
 .col-3 {
-	width: 25%;
-	display: inline-block;
+    width: 25%;
+    display: inline-block;
 
-	;}
+    ;}
 .col-4 {width: 33.33%;}
 .col-5 {
     width: 41.66%;
@@ -72,7 +72,7 @@ each column should have a width of 100%: */
         width: 100%;
     }
 /*    .content{
-    	padding-left: 30%;
+        padding-left: 30%;
     }*/
     .nav-main{
         font-size: 2.3vw;

@@ -1,126 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html>
 <head>
+
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WedRental</title>
 
-    <title>WedRentals</title>
-
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/grids.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css"> 
+<link rel="stylesheet" href="css/grid.css"> 
 
 </head>
 
+
 <body>
 
-	<div class="grid-row" style="height:50px">
 
-	<!---- Navigation on left hand side -->
-		<nav class="nav-main grid-row">
+<!----- covers whole page---->
+<!-- <div class="page-wrap"> -->
 
-			<div class="grid-col-1of12">
-				<a href=index.html class="nav-main-item">Logo</a>
+<!----- covers hedder and nav---->
+	<div class="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="index.html"></a><img class="logo" src="images/logowhite.png" width="210" height="50" alt=""></h1>
 			</div>
+		</div>
 
-			<div class="grid-col-1of12">
-				<a href=ideas.html class="nav-main-item">Ideas</a>
+		<!-- <div id="header" class= "container"> -->
+			<div class="col-4 nav-main">	
+
+	  			<ul>
+	  				
+		            <li><a href="collection.html">COLLECTION</a></li>
+	        		<li><a href="about.html">ABOUT</a></li>
+		            <li><a href="contact.html">CONTACT</a></li>
+	        	</ul>
+	  		</div>
+	  	</div>
+<!-- 	</div> -->
+
+
+
+	<!-- CONTENT -->
+
+<div id="welcome" class="container">
+	<h2>Welcome to our website</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>		
+</div>
+
+	<div  id="page" class="container">
+
+		<div class="title">
+			<h1 style="margin-bottom:0; margin-top:0.75em">New Arrivals</h1>
+		</div>
+		<div class="center" style="max-width: 10em">
+		
+		</div>
+
+
+
+		<!-- New Arrivals list  -->
+	<div class="col-12">
+		<div class=" col-3 boxA">
+		 <!--- first image from left ---->
+		
+				<a href="product.html" class="clickable-image"><img src="images/dress2.jpg" width="220" height="320" alt=""></a>
+
+				<h3>Dress by OSCAR DE LA RENTA</h3>
+
+				<p>Ball-Gown Sweetheart Chapel Train Tulle Lace Wedding Dress With </p>
+
+				<div class="purchase"> 
+					<h3>$455.99</h3>
+					<a href=purchase.html >Rent</a>
+				</div>
+
+			
+		</div>
+
+		<div class=" col-3 boxB">
+			<!-- <div class="box"> -->
+				<a href="product.html" class="clickable-image"><img src="images/dress4.jpg" width="220" height="320" alt=""></a>
+
+				<h3>Dress by VEREL</h3>
+
+				<p>Ball-Gown Sweetheart Chapel Train Tulle Lace Wedding Dress With adsfsadfasdfasdfsdafs</p>
+
+				<div class="purchase"> 
+					<h3>$599.99</h3>
+					<a href=purchase.html >Rent</a>
+				</div>
+				<!-- <a href="#" class="button">Read More</a> -->
+			<!-- </div> -->
+		</div>
+
+		<div class="col-3 boxC">
+
+			<a href="product.html" class="clickable-image"><img src="images/dress5.jpg" width="220" height="320" alt=""></a>
+
+			<h3>Dress by Paloma Blanca</h3>
+			<p>Ball-Gown Sweetheart Chapel Train Tulle Lace Wedding Dress With ...</p>
+
+			<div class="purchase"> 
+				<h3>$680.99</h3>
+				<a href=purchase.html >Rent</a>
 			</div>
+			
+		</div>
 
-		<!-- 	<div class="grid-col-2of12">
-				<a href=realweddings.html class="nav-main-item">Real Weddings</a>
-			</div> -->
-
-			<div class="grid-col-1of12">
-				<a href=rentalcollection.html class="nav-main-item"> Collection</a>
-			</div>	
-
-		</nav>
-
-
-		<nav class="nav-login grid-row">
-
-
-			<div class="grid-col-1of3">
-				<a href=purchase.html><img src="images/cart.png" alt="" height="10" width="38"></a>
-			</div>
-
-			<div class="grid-col-1of3" style="padding-left:30px">
-				<a href=signup.html><img src="images/register.png" alt="" height="21" width="18"></a>
-			</div>
-
-			<div class="grid-col-1of3" style="padding-right:10px">
-				<a href=signin.html><img src="images/login.png" alt="" height="19" width="21"></a>
-			</div>
-
-		</nav>
-
-
-	<!-- 	<nav class ="nav-tools grid-tools">
-			<div class="grid-col-1of3">
-				<a href="#" class="nav-main-item"></a>
-			</div>
-		</nav> -->
-
-	</div>
-
-
-<div class="grid-row">
-
-      <section id="menu" class="grid-col-12of12 bg1" style="height:300px">
-
-      	<p>Banner</p>
-
-      </section>
 
 </div>
 
-<div class="grid-row">
 
-	<div class= "grid-col-12of12" style="padding-left:160px">
-
-	<div class="grid-col-1of4 photos">
-		
-		<img src="images/dress1.jpg">
-	
-	</div>
-
-	<div class="grid-col-1of4 photos">
-		
-		<img src="images/dress2.jpg" alt=" second dress displayed">
-	</div>
-
-	<div class="grid-col-1of4 photos">
-		<img src="images/dress3.jpg" alt=" second dress displayed">
-	</div>
-
-	<!-- <div class="grid-col-1of4 bg3" style="height:400px">
-		<p>Product 4</p>
-	</div> -->
-
-	</div>
 </div>
 
-
- <div style="padding-left:160px">
-	<div class="grid-col-1of4 photos" style="padding:10px">
-		<a href=purchase.html class="nav-main-item">Purchase</a>
-	</div>
-
-	<div class="grid-col-1of4 photos"  style="padding:10px">
-		<a href=purchase.html class="nav-main-item">Purchase</a>
-	</div>
-
-	<div class="grid-col-1of4 photos"  style="padding:10px">
-		<a href=purchase.html class="nav-main-item">Purchase</a>
-	</div>
-
-</div> 
-
-
-	<div class="grid-col-12of12 footer" style="width:100%" >
-		
-	</div>
 
 </body>
+
+
+
 </html>
