@@ -39,19 +39,18 @@ h3 {
     padding-top: 2.5em;
     }
 
-.nav-main ul {
+.nav-main ul li{
     display: inline-block;
     text-decoration: none;
     transition: 0.5s;
-
+    display: block;
+    float: right;
+    text-align: center;
+    padding: .6em .3% 1em .5em ;
+    margin-right: 1.4%;
 }
 
-.nav-main li
-    {
-        display: block;
-        float: left;
-        text-align: center;
-    }
+
     
 .nav-main li a, #menu li span
     {
