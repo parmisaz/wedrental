@@ -233,25 +233,7 @@ text-align:center;
 /* Page Content                                                                  */
 /*********************************************************************************/
 
-.spacer-symbol{
-    max-width: 5em;
-}
-
-.divider-symbol{
-    max-width: 10em;
-}
-
-.page-title-spacing{
-    margin-top:2em;
-}
-
-.about-bg {
-background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-height: auto; 
-}
+/*------------------code to set up page for footer--------------------*/
 
 .page-wrap {
     min-height: 100%;
@@ -301,11 +283,37 @@ height: auto;
     transition: 0.5s;
 }
 
+.footer-text{
+    padding:0;
+}
+
+/*-----------------end of footer/page setup--------------*/
+
+
+
+.spacer-symbol{
+    max-width: 5em;
+}
+
+.divider-symbol{
+    max-width: 10em;
+}
+
+.page-title-spacing{
+    margin-top:2em;
+}
+
+.about-bg {
+background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: auto; 
+}
 
 .contact{
     padding-left: 10%;
 }
-
 
 
 .content-collection{
@@ -363,4 +371,23 @@ img {
 #inActive2 {
     background-color: black;
     color: white;
+}
+
+
+/*----------------forms----------------*/
+
+.form-3of10{
+    width:29%;
+}
+
+.form-5of10{
+    width:49.5%;
+}
+
+.form-7of10{
+    width:70%;
+}
+
+.form-10of10{
+    width:100%;
 }
