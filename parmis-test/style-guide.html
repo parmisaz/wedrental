@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+  <link rel="stylesheet" href="css/main.css"> 
+  <link rel="stylesheet" href="css/grid.css">
+    <!-- <link href="css/fonts.css" rel="stylesheet"> -->
+
+  </head>
+
+  <body>
+
+    <h1>P02 - Style Guide Template</h1>
+
+    <p>A template you can use to start building out your own style guides with.</p>
+
+    <nav>
+      
+      <p>
+        On this page:
+      </p>
+      <ul>
+        <li>
+          <a href="#interactive_elements">Interactive Elements</a>
+        </li>
+        <li>
+          <a href="#text_elements">Text Elements</a>
+        </li>
+        <li>
+          <a href="#combined_elements">Combined Elements</a>
+        </li>
+      </ul>
+
+      <p>Other pages:</p>
+      <ul>
+        <li><a href="user-flow/index.html">User-flows</a>
+        <li><a href="index.html">Style Guide</a>
+        <li><a href="citations.html">Citations</a>
+      </ul>
+    </nav>
+
+
+
+    <!---------------- INTERACTIVE ELEMENTS SECTION // ------------------>
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.purchase a</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="purchase.html" class="purchase"&gt;Purchase&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <!-- <a class="purchase" href="#">Rent</a> -->
+
+        <div class="purchase"> 
+          <a href=purchase.html >Rent</a>
+        </div>
+      </section>
+
+      <section>
+    <!---------- in text link styling section ---------->
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.text-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="text-link"&gt;VIEW ALL&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="text-link" href ="View_all.html">VIEW ALL</a>
+      </section>
+
+    <!--------- Submit/Reset Button styling section ------>
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.submit_button</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="submit_button"&gt;Submit&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="submit_button" href="#">Submit</a>
+      </section>
+
+      <!------------ text input field and a label -------->
+      <section>
+        <h2>Text Input Field</h2>
+        
+        <h3>CSS selector:</h3>
+        <p>.input</p>
+
+        <h3>Sample code:</h3>
+          <code>&lt;form&gt;
+          <code>&lt;label for="fname"&gt;First Name&lt;/label&gt;</code>
+          <code> &lt;input type="text" id="fname" name="fname"&gt;</code>
+          &lt;/form&gt;</code>
+       
+        <h3>Rendered element:</h3>
+          <form> 
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" style = "width: 300px;">
+          </form>
+
+      </section>
+
+    </section>
+    <!-----------//  INTERACTIVE ELEMENTS SECTION -->
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+        <p>h1</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1&gt; The Wedluxerental &lt;/h1&gt;</code> 
+
+        <h3>Rendered element:</h3>
+        <h1>The Wedluxerental</h1>
+
+
+        <h3>CSS selector:</h3>
+        <p>h2</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h2&gt; Real Wedding Inspiration &lt;/h2&gt;</code> 
+
+        <h3>Rendered element:</h3>
+        <h2>Real Wedding Inspiration </h2>
+
+       
+        <h3>CSS selector:</h3>
+        <p>h3</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h3&gt; Rental: $11.00 CAD &lt;/h3&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h3>Rental: $11.00 CAD</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        
+        <h3>Sample code:</h3>
+          <code>&lt;p&gt; Users are able to browse through the rental collection items, choose the item they are interested in, based on the event date and availability, they are able to rent the selected items or put on hold for 24 hours. They can also book to visit one of our showrooms in order to get in person consultation or view the items they are planning to rent. &lt;/p&gt;</code>
+        <h3>Rendered element:</h3>
+          <p>Users are able to browse through the rental collection items, choose the item they are interested in, based on the event date and availability, they are able to rent the selected items or put on hold for 24 hours. They can also book to visit one of our showrooms in order to get in person consultation or view the items they are planning to rent. 
+          </p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <!-- furniture items -->
+
+          <h3>Sample code:</h3>
+            <code>&lt;ul&gt;
+            <code>&lt;li&gt; Furnitures &lt;/li&gt;</code>
+            <code>&lt;li&gt; Decore Elements &lt;/li&gt;</code>
+            <code>&lt;li&gt; Bridal Dress &lt;/li&gt;</code>
+            &lt;/ul&gt;</code>
+
+        <ul>
+        <li>Furnitures</li>
+        <li> Decore Elements</li>
+        <li>Bridal Dress</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <!-- order list-->
+       <!--  <h3>CSS selector:</h3>
+        <p>ol</p> -->
+        
+          <h3>Sample code:</h3>
+          <code>&lt;ol&gt;
+          <code>&lt;li&gt; Register/Sign in &lt;/li&gt;</code>
+          <code>&lt;li&gt; Search for item &lt;/li&gt;</code>
+          <code>&lt;li&gt; Select Quantitiy and price &lt;/li&gt;</code>
+          <code>&lt;li&gt; Add to Shoppping Cart&lt;/li&gt;</code>
+          <code>&lt;li&gt; Shipping Process &lt;/li&gt;</code>
+          <code>&lt;li&gt; Purchase &lt;/li&gt;</code>
+          &lt;/ol&gt;</code>
+
+
+        <ol>
+          <li>Register/Sign in</li>
+          <li>Search for item</li>
+          <li>Select Quantitiy and price</li>
+          <li>Add to Shoppping Cart</li>
+          <li>Shipping Process</li>
+          <li>Purchase</li>
+        </ol>
+
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+    <!----------Navigation Bar -------->
+        <h3>CSS selector:</h3>
+        <p>nav-wrapper</p>
+
+        <nav>
+            <div id="main_nav">
+              <ul>
+              <li><a class="active" href="">Ideas</a></li>
+              <li><a href="">Real Weddings</a></li>
+              <li><a href="">Rental Collection</a></li>
+              <li style="float:right"><a href="">Log out</a></li>
+              </ul>
+           </div>
+        
+        </nav>
+
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+          <h3>CSS selector:</h3>
+          <p>product-list</p>
+
+          <h3>Sample code:</h3>
+            <code>&lt;ul&gt;
+            <code>&lt;li&gt; Furnitures &lt;/li&gt;</code>
+            <code>&lt;li&gt; Decore Elements &lt;/li&gt;</code>
+            <code>&lt;li&gt; Cake Stands & Dessert Trays &lt;/li&gt;</code>
+            <code>&lt;li&gt; Bridal Dress &lt;/li&gt;</code>
+            <code>&lt;li&gt; Bridal Jewelry &lt;/li&gt;</code>
+            &lt;/ul&gt;</code>
+
+        <ul class="product-list">
+           <li><a class="active" href="">Rental Collection</a></li>
+            <li><a href="">Furniture</a></li>
+            <li><a href="">Decore Elements</a></li>
+            <li><a href="">Cake Stands & Dessert Tray</a></li>
+            <li><a href="">Bridal Dress</a></li>
+            <li><a href="">Bridal Jewelry</a></li>
+        </ul>
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+  <!-- Grid structure -->
+  <div class="grid">
+     <div class="col-1-3">
+       <div class="module">
+        <ul class="side_nav">
+              <li><a class="active" href="">Rental Collection</a></li>
+              <li><a href="">Furniture</a></li>
+              <li><a href="">Decore Elements</a></li>
+              <li><a href="">Cake Stands & Dessert Tray</a></li>
+              <li><a href="">Bridal Dress</a></li>
+              <li><a href="">Bridal Jewelry</a></li>
+        </ul>
+     </div>
+    </div>
+
+    <div class="col-2-3">
+      <div class="module2">
+      <h3>Main Content</h3>
+       <!--  <p>Rental Collection Page is two column: a main content area which is 2/3 the width and side bar on the left which is 1/3 width. The main content includes product description, image, drop-down selection and submit button</p>  
+       -->
+       <img id src="images/dress1.jpg">
+       <img id src="images/dress2.jpg">
+       <img id src="images/dress3.jpg">
+
+     </div>
+   </div>
+   
+    
+  </div>
+
+
+  </body>
+</html>
