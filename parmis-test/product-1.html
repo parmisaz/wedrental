@@ -2,209 +2,278 @@
 <html lang="en">
 <head>
 
-	<!-- <link href="font/Edwardian Script ITC V1.ttf" rel="stylesheet"> -->
+	<link href="font/Edwardian Script ITC V1.ttf" rel="stylesheet">
 
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>WedRental - Purchase</title>
+	<title>WedRental</title>
 
 	<link rel="stylesheet" href="css/main.css"> 
 	<link rel="stylesheet" href="css/grid.css"> 
 
 </head>
 
-<body>
-
-<div class="page-wrap">
+<body class="bg-index">
 
 
+<!--- covers whole page minus footer area-->
+<div class="page-wrap grid">
 
-<!-- NAV BAR -->
-  	<div class= "row">
-	
-  		<div class="col-12 nav-main">	
+<!-- covers header and nav-->
 
-  			<ul>
-  				<li><a href=index.html ><img class="logo" src="img/other/logowhite.png"></a></li>
-	            <li><a href="collection.html">Collection</a></li>
-        		<li><a href="about.html">About</a></li>
-	            <li><a href="contact.html">Contact</a></li>
-        	</ul>
-  		</div>
-  	</div>
+	<div class="header-wrapper">
+		<div id="header">
+			<div  class="col-2">
+				<div id="logo">
+					<a href="index.html"><img src="img/other/logowhite.png" alt="WedRental Logo"></a>
+				</div>
+			</div>
 
-<!-- CONTENT -->
-	<div class="full">
+			<div class="col-8 nav-main">	
+				<ul>				
+		            <li><a href="collection.html">COLLECTION</a></li>
+		    		<li><a href="about.html">ABOUT</a></li>
+		            <li><a href="contact.html">CONTACT</a></li>
+		    	</ul>
+			</div>
 
-		<div class="content">
-			<h1 style="margin-bottom:0; margin-top:0.75em">Product Detail</h1>
 		</div>
-		<div class="center" style="max-width: 10em">
-		<img style="margin-bottom: 2em" src="img/other/divider.png">
+	</div>
+
+<!-- page content title/opener -->
+	<div id="welcome" class="center">
+
+		<div class="center">
+			<img src="img/other/1.png" class="spacer-symbol">
 		</div>
+
+		<br><hr>
 
 	</div>
+
+	<div  id="page" class="center">
+
+		<div class="content">
+			<h1>Product Information</h1>
+		</div>
+		<div class="center divider-symbol">
+		<img src="img/other/divider.png">
+		</div>
+<!-- end of opener -->
 
 
 <!-- PAGE CONTENT -->
-<div class="full" style=" max-width:1200px; margin:0 auto; padding:3em">
+		<div class="full product-page">
 
 
-<!-- PRODUCT IMAGE-->
-	<div class="col-4 product-img">
-		<img src="img/product/dress2.jpg">
-	</div>
+	<!-- PRODUCT IMAGE-->
+			<div class="col-4 product-img">
+				<img src="img/product/dress2.jpg">
+			</div>
 
-<!-- PRODUCT INFORMATION -->
-	<div class="col-7 discription">
+	<!-- PRODUCT INFORMATION -->
+			<div class="col-7 description">
 
-		<div class="col-7" style="display: inline-block">
-		<ul style="list-style-type: none; padding-left:0">
-			<li style="padding-bottom:1.2em"><h2>Oscar de la Renta</h2></li>
-			<li style="font-weight: bold">$399.99 CAD</li>
-		</ul><br>
+				<div class="full">
+					<div class="col-7">
+						<ul class="product-title">
+							<li class="product-title-spacing"><h2>Oscar de la Renta</h2></li>
+							<li class="bold">$399.99 CAD</li>
+						</ul><br>
+					</div>
+
+					<div class="col-4 inline right">	<!-- select a date is a drop down calendar for easier date selection-->
+						<p>
+							<form class="fields">
+								Select a rental date:
+								<input type="date" name="Date" id="selectdate">
+							</form>
+						</p>
+					</div>
+
+				</div>
+
+				<div class="col-5 purchase inline right product-title-margins">
+					<a  href="purchase.html">Rent</a>
+				</div>
+
+
+				<div class="col-12">
+				<hr>
+
+				<nav>
+					<div class="product-nav">
+					<div class="col-5">
+						<a href = "productNav-1.html" class="product-nav" id="active2" >Item Description</a>
+					</div>
+					<div class="col-5">
+						<a href = "productNav-2.html" class="product-nav" id="inActive">Shipping Time and Cost</a>
+					</div>
+					</div>
+				</nav>
+
+				<p>Short Wedding Dress With Classic Style. </p>
+				<p>Although it may seem more casual, wearing a short wedding dress is perfect for so many wedding venues and styles. No longer does every bride feel the need to wear a traditionally long wedding gown, and wedding dress designers are able to design a stylish dress that isn't floor length.</p>
+
+				
+				<br>
+				</div>
+
+				<div class="full">
+				<p>
+				Item specifics
+					<li>Collection:2014 Fall Winter.</li>
+					<li>Image Type:Reference Images.</li> 
+					<li>Fabric:Organza </li>  
+					<li>Season:Autumn/Spring </li> 
+					<li>Custom Made Color:Yes </li> 
+					<li>Neckline:Jewel </li> 
+					<li>Hemline/Train:Court Train </li>  
+					<li>Custom Made Size:Yes </li>  
+					<li>Silhouette:Ball Gown</li>   
+					<li>Back Design:Backless </li>   
+					<li>Sleeve Length:Sleeveless </li> 
+				</p>
+				</div>
+
+			</div>
 		</div>
 
-		<div class="col-5 purchase" style="display: inline-block; float:right">
-			<a  href="purchase.html">Rent</a>
-		</div><br>
+	<!-- PRODUCT REVIEW SECTION -->
+		<div class="full write-review">
+			<div class="col-3 inline">		
+				<h2>Your rating: </h2>
+			    <p>
+			      Rating:
+			      <span class="starRating">
+			        <input id="rating5" type="radio" name="rating" value="5">
+			        <label for="rating5">5</label>
+			        <input id="rating4" type="radio" name="rating" value="4">
+			        <label for="rating4">4</label>
+			        <input id="rating3" type="radio" name="rating" value="3" checked>
+			        <label for="rating3">3</label>
+			        <input id="rating2" type="radio" name="rating" value="2">
+			        <label for="rating2">2</label>
+			        <input id="rating1" type="radio" name="rating" value="1">
+			        <label for="rating1">1</label>
+			      </span>
+			    </p>
+			</div>
 
 
-		<div class="col-12">
-		<hr><br>
+			<div class="col-8 right">
 
-		<nav>
-						<div class="product-nav">
-						<div class="col-5">
-							<a href = "productNav-1.html" class="product-nav" id="active2" >Item Description</a>
-						</div>
-						<div class="col-5">
-							<a href = "productNav-2.html" class="product-nav" id="inActive">Shipping Time and Cost</a>
-						</div>
-						</div>
-					</nav>
+				<h3>Write a Review!</h3>
+				<input type="form" class="write-review-form" placeholder="Write your review here.">
+				<a href="submit.html" class="review-submit-button">Submit</a>
 
-		<p>Short Wedding Dress With Classic Style. </p>
-		<p>Although it may seem more casual, wearing a short wedding dress is perfect for so many wedding venues and styles. No longer does every bride feel the need to wear a traditionally long wedding gown, and wedding dress designers are able to design a stylish dress that isn't floor length.</p>
+			</div>
 
-		
-		<br>
 		</div>
 
-	<!-- 	<div class="col-12">
-			<ul style="list-style-type: none; font-size:.8em">
-			<li style="font-weight:bold">Specifications:</li>
-			<li>Fabric type</li>
-			<li>Spec 2</li>
-			<li>Spec 3</li>
-			</ul>
-		</div> -->
 
-		<!-- select a date is a drop down calendar for easier date selection-->
-								<p>
-									<form class="fields">
-										Select a Date:
-										<input type="date" name="Date" id="selectdate">
-									</form>
-								</p>
+	<!-- PRODUCT COMMENT SECTION -->
 
+		<div class="col-7 right product-review-section">
 
-		Item specifics
-<li>Collection:2014 Fall Winter.</li>
-<li>Image Type:Reference Images.</li> 
-<li>Fabric:Organza </li>  
-<li>Season:Autumn/Spring </li> 
-<li>Custom Made Color:Yes </li> 
-<li>Neckline:Jewel </li> 
-<li>Hemline/Train:Court Train </li>  
-<li>Custom Made Size:Yes </li>  
-<li>Silhouette:Ball Gown</li>   
-<li>Back Design:Backless </li>   
-<li>Sleeve Length:Sleeveless </li> 
+			<div class="col-10 product-review">
+				<p class="bold">Sarah Connor</p>
+				<p>Beautiful work!!! Amazing service! Wedrental was great to work with and I cannot thank them enough for renting  my wedding dress!</p>   
+
+				<p>
+			      Rating:
+			      <span class="starRating">
+			        <input id="rating5" type="radio" name="rating" value="5">
+			        <label for="rating5">5</label>
+			        <input id="rating4" type="radio" name="rating" value="4">
+			        <label for="rating4">4</label>
+			        <input id="rating3" type="radio" name="rating" value="3" checked>
+			        <label for="rating3">3</label>
+			        <input id="rating2" type="radio" name="rating" value="2">
+			        <label for="rating2">2</label>
+			        <input id="rating1" type="radio" name="rating" value="1">
+			        <label for="rating1">1</label>
+			      </span>
+		   		</p>
+
+			</div>
 
 
-	</div><br><br>
+			<hr>
 
-<!-- PRODUCT REVIEW SECTION -->
-	<div class="full" style="text-align: center; padding-top:2em">
+			<div class="col-10 product-review">
+				<p class="bold">Grace Chan</p>
+				<p>My dress is so beautiful! I am so happy I trusted Wedrental  to rent  my dream dress! They have a great customer service, I received my dress on time.. I will 100% recommend them to any bride who cannot find what they are looking for. I can't wait to show everyone my dress on my big day ! Thanks again WedRental for all of your hard work and dedication!</p>
+				<p>
+			      Rating:
+			      <span class="starRating">
+			        <input id="rating5" type="radio" name="rating" value="5">
+			        <label for="rating5">5</label>
+			        <input id="rating4" type="radio" name="rating" value="4">
+			        <label for="rating4">4</label>
+			        <input id="rating3" type="radio" name="rating" value="3" checked>
+			        <label for="rating3">3</label>
+			        <input id="rating2" type="radio" name="rating" value="2">
+			        <label for="rating2">2</label>
+			        <input id="rating1" type="radio" name="rating" value="1">
+			        <label for="rating1">1</label>
+			      </span>
+		   		</p>
+			</div>
 
-		<div class="col-9" style="text-align:center; margin: auto">
+			<hr>
 
-			<h3>Write a Review!</h3>
-			<input type="form" style="width:80%; height:5em" placeholder="Write your review here.">
-			<input type="submit" style="margin-left:1em; padding:1.5em .5em 1.5em .5em">
+			<div class="col-10 product-review">
+				<p class="bold">Chiwetel Ejiofor</p>
+				<p>I love this dress, very well made and beautiful!</p>
+				<p>
+			      Rating:
+			      <span class="starRating">
+			        <input id="rating5" type="radio" name="rating" value="5">
+			        <label for="rating5">5</label>
+			        <input id="rating4" type="radio" name="rating" value="4">
+			        <label for="rating4">4</label>
+			        <input id="rating3" type="radio" name="rating" value="3" checked>
+			        <label for="rating3">3</label>
+			        <input id="rating2" type="radio" name="rating" value="2">
+			        <label for="rating2">2</label>
+			        <input id="rating1" type="radio" name="rating" value="1">
+			        <label for="rating1">1</label>
+			      </span>
+		   		</p>
+			</div><br>
+			
 
 		</div>
 
 	</div>
-
-
-<!-- PRODUCT COMMENT SECTION -->
-	<div class="full" style="text-align: center; padding-top:3em">
-		<div class="col-10" style="text-align: left; margin: 0 auto">
-			<p style="font-weight: bold">Sarah Connor</p>
-			<p>Beautiful work!!! Amazing service! Wedrental was great to work with and I cannot thank them enough for renting  my wedding dress!</p>
-		</div><br>
-
-		<hr>
-
-		<div class="col-10" style="text-align: left; margin: 0 auto">
-			<p style="font-weight: bold">Grace Chan</p>
-			<p>My dress is so beautiful! I am so happy I trusted Wedrental  to rent  my dream dress! They have a great customer service, I received my dress on time.. I will 100% recommend them to any bride who cannot find what they are looking for. I can't wait to show everyone my dress on my big day ! Thanks again WedRental for all of your hard work and dedication!</p>
-		</div><br>
-
-		<hr>
-
-		<div class="col-10" style="text-align: left; margin: 0 auto">
-			<p style="font-weight: bold">Chiwetel Ejiofor</p>
-			<p>I love this dress, very well made and beautiful!</p>
-		</div><br>
-		
-
-	</div>
-
-
+</div>
 
 </div><!--  End of Page Content div -->
 
 
-
-
-
-
-
-
-<!-- BOTTOM DIVIDER -->
-<!-- 	<div class="header" style="max-width: 15em; padding-top: 2em; padding-bottom: 5em">
-		<img src="img/other/end.png">
-	</div>
- -->
-
-
-
-
-
-</div><!--  PAGE WRAP END DIV -->
-
+</div><!--  end of page wrap div -->
 
 
 
 <footer class="site-footer">
 
-<div class="nav-main">
-<ul style="padding:0">
-	<li><a href="sitemap.html"><small>Site Map</small></a></li>
+<div class="nav-footer">
+<ul class="footer-text">
+	<li><a href="styleguide.html"><small>Style Guide</small></a></li>
 	<li><small>|</small></li>
-	<li><a href="contact.html"><small>Contact Us</small></a></li>
+	<li><a href="citations.html"><small>Citations</small></a></li>
 	<li><small>|</small></li>
-	<li><a href="FAQ.html"><small >FAQ</small></a></li>
+	<li><a href="https://github.com/parmisaz/wedrental"><small >Project on GitHub</small></a></li>
 </ul>
 
+
+<!-- in footer, styleguide, citation, github link -->
 <p>&copy; WedRental All rights reserved.</p>
 
 </div>
 
-</footer>
+</footer> 
 
 
 </body>

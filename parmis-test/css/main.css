@@ -33,6 +33,18 @@ h3 {
     margin-bottom:0.4em;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.inline{
+    display:inline;
+}
+
+.right{
+    float:right;
+}
+
 .bg-index{
     background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
 }
@@ -336,16 +348,36 @@ img {
 }
 
 /*------------------ Product 1 --------*/
+
+.product-page{
+    max-width:1200px; 
+    margin:0 auto; 
+    padding:3em;
+}
+
+.product-title-margins{
+    margin-bottom:2em;
+}
+.product-title {
+    list-style-type: none; 
+    padding-left:0;
+}
+
+.product-title-spacing{
+    padding-bottom:1.2em;
+}
+
 .product-img{
     display: inline-block;
     text-align:center
     margin:1em;
 }
-.discription{
+.description{
     display: inline-block;
     position: relative;
     vertical-align: top;
     float:right;
+    text-align:left;
 
 }
 
@@ -372,6 +404,77 @@ img {
     background-color: black;
     color: white;
 }
+
+.write-review {
+    text-align: center; padding-top:2em;
+}
+
+.write-review-form {
+    width:80%; height:5em;
+}
+
+.review-submit-button{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1vw;   
+    background-color: #C6AF6D;
+    padding:1.1em .2em 1.1em .2em;
+    transition: 0.2s;
+}
+
+.product-review-section{
+    text-align: left; 
+    padding-top:3em;
+}
+
+.product-review{
+    margin: 0 auto;
+    padding-bottom:1.5em;
+}
+
+        /*star rating css 
+        from http://code.stephenmorley.org/html-and-css/star-rating-widget/*/
+
+
+                .starRating:not(old){
+                  display        : inline-block;
+                  width          : 7.5em;
+                  height         : 1.5em;
+                  overflow       : hidden;
+                  vertical-align : bottom;
+                }
+
+                .starRating:not(old) > input{
+                  margin-right : -100%;
+                  opacity      : 0;
+                }
+
+                .starRating:not(old) > label{
+                  display         : block;
+                  float           : right;
+                  position        : relative;
+                  background      : url('star-off.svg');
+                  background-size : contain;
+                }
+
+                .starRating:not(old) > label:before{
+                  content         : '';
+                  display         : block;
+                  width           : 1.5em;
+                  height          : 1.5em;
+                  background      : url('star-on.svg');
+                  background-size : contain;
+                  opacity         : 0;
+                  transition      : opacity 0.2s linear;
+                }
+
+                .starRating:not(old) > label:hover:before,
+                .starRating:not(old) > label:hover ~ label:before,
+                .starRating:not(:hover) > :checked ~ label:before{
+                  opacity : 1;
+                }
+
+        /*end of star rating display*/
 
 
 /*----------------forms----------------*/
