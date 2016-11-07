@@ -142,6 +142,20 @@ text-align:center;
     /*text-align:right;*/
 }
 
+
+.dress-description{
+    text-decoration: none;
+    color:gray;
+    transition: 0.2s;
+}
+
+/*a:hover, a:active {
+    background-color: red;
+}*/
+.dress-description a:hover, a:active {
+transition: 0.5s;
+}
+
 .purchase{
     padding-top: .7em;
     padding-bottom: .5em;
@@ -160,6 +174,7 @@ text-align:center;
     padding-left:42px;
     padding-right: 39px;
     transition: 0.2s;
+
     
 }
 
@@ -494,3 +509,4 @@ img {
 .form-10of10{
     width:100%;
 }
+ 
