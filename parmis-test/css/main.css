@@ -15,7 +15,7 @@ html{
         background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12pt;
-        font-weight: 300;
+        /*font-weight: 300;*/
         color: #000000;
     }
 
@@ -29,7 +29,6 @@ h1{
    margin-left: 0.5em;
 }
 
-
 h3 {
     font-size: 0.8em;
     margin-top:0.5em;
@@ -41,7 +40,7 @@ h3 {
     position: absolute;
     top:1em;
     right: 1em;
-    padding: 2.5em 1% 0 1%;
+    /*padding: 2.5em 1% 0 1%;*/
      font-size:.9em;
     }
 
@@ -57,8 +56,6 @@ h3 {
 
 }
 
-
-    
 .nav-main ul li a
     {
         text-decoration: none;
@@ -83,25 +80,25 @@ h3 {
     .header-wrapper
     {
         overflow: hidden;
-        height: 40em;
+        height: 38.5em;
     }
 
     #header
     {
         position: relative;
-        margin-top: 3em;
-        padding: 3em 0em;
+        /*margin-top: 2.1em;*/
+        padding: 0.2em 0em;
         background: #96063b;
     }
 
 
 
-    .container
+/*    .container
     {
         overflow: hidden;
         margin: 0em auto;
         width: 1200px;
-    }
+    }*/
 
     .photos{
     /*padding-left: 1%;
@@ -114,7 +111,7 @@ h3 {
     {
         overflow: hidden;
         width: 1000px;
-        padding: 7em 100px 3em 100px;
+        padding: 1.3em 100px 3em 100px;
         background: #FFF;
     }
 
@@ -132,12 +129,13 @@ h3 {
     {
         overflow: hidden;
         margin: 0em auto;
-        width: 1200px;
+        /*width: 1200px;*/
     }
 
     .center {
     width: 50%;
     margin:0 auto;
+    text-align:center;
 }
 
 .new-arrivals{
@@ -198,16 +196,17 @@ h3 {
         overflow: hidden;
         width: 1000px;
         margin-top: 3em;
-        padding: 4em 100px 3em 100px;
+        padding: 2.3em 100px 3em 100px;
         background: #FFF;
     }
 
     
     #welcome h2
     {
-        padding-bottom: 1em;
-        font-size: 1.8em;
-        font-weight: 400;
+        font-family: 'Edwardian Script ITC';
+        padding-bottom: 0.5em;
+        /*font-size: 2.5em;*/
+        /*font-weight: 400;*/
     }
 
 /*********************************************************************************/
@@ -237,10 +236,11 @@ h3 {
 
     #logo
     {
-        position: absolute;
-        top: 1em;
-        left: 2em;
-
+        /*position: absolute;*/
+        /*top: 1em;*/
+        /*left: 2em;*/
+        padding-top:0.5em;
+        padding-left: 1.5em
     }
     
  
@@ -250,7 +250,9 @@ h3 {
         text-decoration: none;
         color: #FFF;
         float:left;
+
         padding-right: 0.05em;
+        max-width: 18em;
     }
 
 

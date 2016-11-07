@@ -70,7 +70,9 @@ each column should have a width of 100%: */
         padding-top:3em; 
         padding-left: 2.3em;
         margin-left: 1em;
-    }*/
+    }*/    
+
+
    
 }
 
@@ -106,8 +108,12 @@ each column should have a width of 100%: */
     }*/
     .purchase h3{
     padding-top:0;
-}
-   
+    }    
+
+    .logo{
+        display:none; 
+        }
+
 }
 /*.about{
     padding-left:2%;
@@ -173,12 +179,17 @@ fieldset {
 /*When the browser window becomes smaller than 300px (the size of the logo image), the logo will not display*/
 
 @media screen and (max-width: 300px) {
-    .logo{
-        display:none; 
-        }
+
 
 
 }
 
+@media screen and (min-width: 1600px) {
+
+    body{
+    background-size:cover;
+    }
+
+}
 
 
