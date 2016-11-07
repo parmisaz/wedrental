@@ -365,3 +365,41 @@ img {
     height:auto;
     max-width: 100%;
 }
+
+/*------------------ Product 1 --------*/
+.product-img{
+    display: inline-block;
+    text-align:center
+    margin:1em;
+}
+.discription{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    float:right;
+
+}
+
+.product-nav {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+    width: 85%;
+
+}
+
+#active {
+    background: #498A47;
+    color: white;
+}
+#active2 {
+    background: white;
+    color: black;
+}
+
+#inActive2 {
+    background-color: black;
+    color: white;
+}
