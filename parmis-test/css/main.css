@@ -97,7 +97,7 @@ h3 {
     #page{
         overflow: hidden;
         width: 80%;
-        padding: 1.3em 100px 3em 100px;
+        padding: 1.3em 100px 5em 100px;
         background: #FFF;
     }
 
@@ -136,8 +136,8 @@ h3 {
 }
 
 .purchase{
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: .7em;
+    padding-bottom: .5em;
     /*padding-right:1.85vw;*/
     margin:0 auto;
     text-align:center;
@@ -171,7 +171,7 @@ h3 {
 
 .details{
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: .5em;
     margin:0 auto;
     text-align:center;
 }
@@ -181,7 +181,7 @@ h3 {
     color: #ffffff;
     padding-bottom: 0.4em;
     font-size: 1.2vw;   
-    background-color: #DD8D78;
+    background-color: #C6AF6D;
     padding-top: 6px;
     padding-left:42px;
     padding-right: 39px;
@@ -192,7 +192,7 @@ h3 {
 .details a:hover {
     transition: 0.5s;
     text-decoration: none;
-    background-color: #F9B9AA;
+    background-color: #EFD9A5;
     transition: 0.4s;
 
 }
