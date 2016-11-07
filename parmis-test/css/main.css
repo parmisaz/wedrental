@@ -9,17 +9,17 @@ html{
 }
 
 
-    body {
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 12pt;
-        color: #000000;
-    }
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
 
-    p {
-    margin-top:0.7em;
-    font-size: 0.8em;
+p {
+margin-top:0.7em;
+font-size: 0.8em;
 }
 
 h1{
@@ -79,51 +79,46 @@ h3 {
 /* Header                                                                        */
 /*********************************************************************************/
 
-    .header-wrapper{
-        overflow: hidden;
-        height: 42em;
-    }
+.header-wrapper{
+    overflow: hidden;
+    height: 42em;
+}
 
-    #header{
-        /*position: relative;*/
-        padding: 0.2em 0em;
-        background: #96063b;
-    }
+#header{
+    /*position: relative;*/
+    padding: 0.2em 0em;
+    background: #96063b;
+}
 
-    .photos{
-        padding-top:2em;
-    }
+.photos{
+    padding-top:2em;
+}
 
-    #page{
-        overflow: hidden;
-        width: 80%;
-        padding: 1.3em 100px 5em 100px;
-        background: #FFF;
-    }
+#page{
+    overflow: hidden;
+    width: 80%;
+    padding: 1.3em 100px 5em 100px;
+    background: #FFF;
+}
 
-    .container{
-        overflow: hidden;
-        margin: 0em auto;
-        width:;
-    }
+.container{
+    overflow: hidden;
+    margin: 0em auto;
+    width:;
+}
 
-
-/* new arrival */
-    .content{
-        font-family: 'Edwardian Script ITC';
-        font-size: 1.3em;
-        text-align:center;
-        padding-right:1.25em;
-
-    }
-
-/* homepage where new arrival goes */
-
-
-    .center {
-    width: 50%;
-    margin:0 auto;
+.content{
+    font-family: 'Edwardian Script ITC';
+    font-size: 1.3em;
     text-align:center;
+    padding-right:1.25em;
+
+}
+
+.center {
+width: 50%;
+margin:0 auto;
+text-align:center;
 }
 
 .new-arrivals{
@@ -218,63 +213,37 @@ h3 {
     }
 
     
-    #welcome h2
-    {
-        font-family: 'Edwardian Script ITC';
-        padding-bottom: 0.5em;
-        /*font-size: 2.5em;*/
-        /*font-weight: 400;*/
-    }
+#welcome h2
+{
+    font-family: 'Edwardian Script ITC';
+    padding-bottom: 0.5em;
+    /*font-size: 2.5em;*/
+    /*font-weight: 400;*/
+}
 
-/*********************************************************************************/
-/* 3-column                                                                      */
-/*********************************************************************************/
-
-/*    .boxA,
-    .boxB,
-    .boxC
-    {
-        max-width: 240px;
-    }
-
-    .boxA,
-    .boxB
-    {
-        float: left;
-        margin-right: 90px;
-    }
-    
-    .boxC
-    {
-        float: right;
-    }*/
-
-
-
-     #logo
-    {*/
-        top: 1em;
-        padding-top:0.5em;
-        padding-left: 1.5em
-    }
+ #logo
+{*/
+    top: 1em;
+    padding-top:0.5em;
+    padding-left: 1.5em
+}
     
  
-    
-/*    #logo a
-    {
-        text-decoration: none;
-        color: #FFF;
-        float:left;
-
-        padding-right: 0.05em;
-        max-width: 18em;
-    }
-*/
-
 /*********************************************************************************/
-/* About page                                                                      */
+/* Page Content                                                                  */
 /*********************************************************************************/
 
+.spacer-symbol{
+    max-width: 5em;
+}
+
+.divider-symbol{
+    max-width: 10em;
+}
+
+.page-title-spacing{
+    margin-top:2em;
+}
 
 .about-bg {
 background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
@@ -283,9 +252,6 @@ background-repeat: no-repeat;
 background-position: center;
 height: auto; 
 }
-
-
-
 
 .page-wrap {
     min-height: 100%;
@@ -297,12 +263,9 @@ height: auto;
   display: block;
 }
 
-
-
 .site-footer, .page-wrap:after {
     height: 65px; 
 }
-
 
 .site-footer {
     margin-top:8em;
@@ -310,9 +273,7 @@ height: auto;
     padding:6px;
     background: #96063b;
     text-align:center;
-
 }
-
 
 .nav-footer{
     /*background-color: #96063b; */
