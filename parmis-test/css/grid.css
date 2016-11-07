@@ -62,6 +62,17 @@ each column should have a width of 100%: */
     input[type=text], input[type=email]{
         width:100%;
     }
+/*
+   .nav-main{
+
+        font-size: 3vw;
+        float:right;
+        padding-top:3em; 
+        padding-left: 2.3em;
+        margin-left: 1em;
+    }*/    
+
+
    
 }
 
@@ -72,7 +83,9 @@ each column should have a width of 100%: */
     [class*="col-"] {
         width: 100%;
     }
-
+/*    .content{
+        padding-left: 30%;
+    }*/
    
    .nav-main{
        
@@ -80,7 +93,6 @@ each column should have a width of 100%: */
         float:left;
         padding-left: 2em;
         padding-bottom: 1em;
-
      
     }
 
@@ -96,8 +108,12 @@ each column should have a width of 100%: */
     }*/
     .purchase h3{
     padding-top:0;
-}
-   
+    }    
+
+    .logo{
+        display:none; 
+        }
+
 }
 /*.about{
     padding-left:2%;
@@ -135,31 +151,12 @@ fieldset {
 }
 
    .nav-main{
-        padding-bottom: 1em;
-         margin-top: 1em;
-        font-size: 2.8vw;
-        float:left;
-        padding-left: .4em;
-        padding-bottom: 1em;  
-    }
-    .nav-main ul li{
-    display: inline-block;
-    text-decoration: none;
-  
-    display: block;
-    float: right;
-    
-    padding: 2em 0 1em .2em ;
-    margin-right: 1%;
-    
-
-}
-    .nav-main ul li a{
-       /* font-size: 1.2em;*/
-        padding-left: 0.1em;
-       padding-right: 0.1em;
-         
        
+        font-size: 3vw;
+        float:left;
+        padding-left: 1em;
+        padding-bottom: 1em;
+     
     }
     .title{
         font-size: 1em;
@@ -182,12 +179,17 @@ fieldset {
 /*When the browser window becomes smaller than 300px (the size of the logo image), the logo will not display*/
 
 @media screen and (max-width: 300px) {
-    .logo{
-        display:none; 
-        }
+
 
 
 }
 
+@media screen and (min-width: 1600px) {
+
+    body{
+    background-size:cover;
+    }
+
+}
 
 
