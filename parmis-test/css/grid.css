@@ -116,6 +116,15 @@ each column should have a width of 100%: */
     .purchase h3{
     padding-top:0;
     }    
+
+    .details a {
+    font-size:1em;
+    width:100%;
+    }
+
+    .details h3{
+    padding-top:0;
+    }    
 }
 
 
