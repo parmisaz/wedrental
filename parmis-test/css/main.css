@@ -88,7 +88,11 @@ h3 {
     .header-wrapper
     {
         overflow: hidden;
+<<<<<<< Updated upstream
         height: 40em;
+=======
+        height: 42em;
+>>>>>>> Stashed changes
     }
 
     #header
@@ -202,8 +206,13 @@ h3 {
     {
         overflow: hidden;
         width: 1000px;
+<<<<<<< Updated upstream
         margin-top: 3em;
         padding: 4em 100px 3em 100px;
+=======
+        margin-top: 5em;
+        padding: 2.3em 100px 3em 100px;
+>>>>>>> Stashed changes
         background: #FFF;
     }
 
