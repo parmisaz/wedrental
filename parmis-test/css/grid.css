@@ -105,7 +105,7 @@ each column should have a width of 100%: */
     }
 
     .new-arrivals {
-        margin:0;
+        margin: 0 0 6.5em 0 ;
     }
 
     .purchase a {
