@@ -14,7 +14,6 @@ html{
         padding: 0px;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12pt;
-        /*font-weight: 300;*/
         color: #000000;
     }
 
@@ -35,26 +34,25 @@ h3 {
 }
 
 .bg-index{
-        background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
+    background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
 }
 
 
 .nav-main{
- /*   text-decoration: none*/;
-    position: absolute;
+    /*position: absolute;*/
     top:1em;
     right: 1em;
-    /*padding: 2.5em 1% 0 1%;*/
-     font-size:.9em;
+    font-size:.9em;
+    width:58.33%;
+    color: #96063b;
+    padding-left:3em;
     }
 
 .nav-main ul li{
     display: inline-block;
     text-decoration: none;
-   /* transition: 0.5s;*/
     display: block;
     float: right;
-  /*  text-align: center;*/
     padding: 2em 0 1em .2em ;
     margin-right: .5%;
 
@@ -81,60 +79,46 @@ h3 {
 /* Header                                                                        */
 /*********************************************************************************/
 
-    .header-wrapper
-    {
+    .header-wrapper{
         overflow: hidden;
         height: 42em;
     }
 
-    #header
-    {
-        position: relative;
-        /*margin-top: 2.1em;*/
+    #header{
+        /*position: relative;*/
         padding: 0.2em 0em;
         background: #96063b;
     }
 
-
-
-/*    .container
-    {
-        overflow: hidden;
-        margin: 0em auto;
-        width: 1200px;
-    }*/
-
     .photos{
-    /*padding-left: 1%;
-    padding-right: 5%;*/
+        padding-top:2em;
+    }
 
-    
-}
-
-    #page
-    {
+    #page{
         overflow: hidden;
         width: 80%;
         padding: 1.3em 100px 3em 100px;
         background: #FFF;
     }
 
-/* new arrival */
-    .content{
-    font-family: 'Edwardian Script ITC';
-    font-size: 1.3em;
-    text-align:center;
-    padding-right:1.25em;
-
-}
-
-/* homepage where new arrival goes */
-.container
-    {
+    .container{
         overflow: hidden;
         margin: 0em auto;
-        /*width: 1200px;*/
+        width:;
     }
+
+
+/* new arrival */
+    .content{
+        font-family: 'Edwardian Script ITC';
+        font-size: 1.3em;
+        text-align:center;
+        padding-right:1.25em;
+
+    }
+
+/* homepage where new arrival goes */
+
 
     .center {
     width: 50%;
@@ -145,7 +129,7 @@ h3 {
 .new-arrivals{
     padding-top: 0;
     padding-bottom: 1rem;
-    padding-right: 1.7rem;
+    margin: 0 1em 0 1em;
     width: 100%;
     vertical-align: text-top;
     /*text-align:right;*/
@@ -154,9 +138,9 @@ h3 {
 .purchase{
     padding-top: 1em;
     padding-bottom: 2em;
-    padding-right:1.85vw;
+    /*padding-right:1.85vw;*/
     margin:0 auto;
-    text-align:right;
+    text-align:center;
 }
 
 .purchase a {
@@ -185,14 +169,44 @@ h3 {
     padding-top: 15px;
 }
 
+.details{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin:0 auto;
+    text-align:center;
+}
 
+.details a {
+    text-decoration: none;
+    color: #ffffff;
+    padding-bottom: 0.4em;
+    font-size: 1.2vw;   
+    background-color: #DD8D78;
+    padding-top: 6px;
+    padding-left:42px;
+    padding-right: 39px;
+    transition: 0.2s;
+    
+}
+
+.details a:hover {
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: #F9B9AA;
+    transition: 0.4s;
+
+}
     
 .clickable-image {
     opacity: 0.7;
-    transition:opacity 0.2s;
+    transition:opacity 0.3s;
     width: 320px;
 }
 
+.clickable-image:hover {
+    opacity: 1;
+    transition:opacity 0.5s;
+}
 
 #welcome
     {
@@ -216,7 +230,7 @@ h3 {
 /* 3-column                                                                      */
 /*********************************************************************************/
 
-    .boxA,
+/*    .boxA,
     .boxB,
     .boxC
     {
@@ -233,22 +247,20 @@ h3 {
     .boxC
     {
         float: right;
-    }
+    }*/
 
 
 
-    #logo
-    {
-        /*position: absolute;*/
-        /*top: 1em;*/
-        /*left: 2em;*/
+     #logo
+    {*/
+        top: 1em;
         padding-top:0.5em;
         padding-left: 1.5em
     }
     
  
     
-    #logo a
+/*    #logo a
     {
         text-decoration: none;
         color: #FFF;
@@ -257,19 +269,19 @@ h3 {
         padding-right: 0.05em;
         max-width: 18em;
     }
-
+*/
 
 /*********************************************************************************/
 /* About page                                                                      */
 /*********************************************************************************/
 
 
-    .about-bg {
-    background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: auto; 
+.about-bg {
+background-image: url("img/wedding-event-reception-space-sperry-tent-orange-flower-centerpieces-white-garden-chairs.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: auto; 
 }
 
 

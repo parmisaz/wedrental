@@ -41,13 +41,13 @@ of the elements */
 
 /* all these columns should be floating to left and padding of 15px */
 
-/*[class*="col-"] {
-    float: left;
-    padding: 15px;
+[class*='col-'] {
+    display:inline-block;
    
-}*/
+}
 
-.col:after {
+
+.grid:after {
     content: "";
     clear: both;
     display: block;
@@ -74,23 +74,38 @@ each column should have a width of 100%: */
 }
 
 
+/*logo disappears when text doesn't have enough space to fit in one line*/
+@media only screen and (max-width: 810px) {
+    #logo{
+        display:none; 
+        }
+    .nav-main
+    {
+        width:100%;
+        font-size: .7em;
+    }
+
+        .center{
+        width: 100%;
+    }
+
+}
+
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
-/*    .content{
-        padding-left: 30%;
-    }*/
-   
-   .nav-main{
-       
-        font-size: 2.4vw;
-        float:left;
-        padding-left: 2em;
-        padding-bottom: 1em;
-     
+
+
+    #header {
+        padding:0;
+    }
+
+    .new-arrivals {
+        margin:0;
     }
 
     .purchase a {
@@ -98,24 +113,11 @@ each column should have a width of 100%: */
         width:100%;
     }
 
-/* .boxA {
-        text-align:center;
-        margin:auto;
-        padding:0;
-    }*/
     .purchase h3{
     padding-top:0;
     }    
-
-    .logo{
-        display:none; 
-        }
-
 }
-/*.about{
-    padding-left:2%;
-   
-}*/
+
 
 fieldset {
     padding: 10px;
@@ -125,55 +127,41 @@ fieldset {
 
 
     .content{
-    font-size: 1em;
+    font-size: .8em;
     padding-bottom: 2em;
     }
 
-/*    .body{
-        width: 100%;
-    }*/
-
     #page{
-      font-size: 1em; 
-      width:120%; 
-      padding-left: 1em;
+      font-size: .7em; 
+      width:100%; 
+      /*padding-left: 1em;*/
     }
+
     #welcome{
-        font-size: 1em; 
-      width:120%; 
-      padding-left: 1em; 
+        font-size: .8em; 
+
+      width:100%; 
+      /*padding-left: 1em; */
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    h1 {
+        font-size: 2.5em;
     }
     .purchase h3{
     padding-top:0;
-}
-
-   .nav-main{
-       
-        font-size: 0.7em;
-        float:left;
-        padding-left: 1em;
-        padding-bottom: 1em;
-     
-    }
-    .title{
-        font-size: 1em;
     }
 
-  .boxA,
-    .boxB,
-    .boxC
-    {
- width:100%;
-    }
 
-   .container{
-    width: 100%;
-   }
-    
+
+    ul{
+        padding:0;
+    }
 
 }
-
-/*When the browser window becomes smaller than 300px (the size of the logo image), the logo will not display*/
 
 @media screen and (max-width: 300px) {
 
