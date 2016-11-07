@@ -62,6 +62,16 @@ each column should have a width of 100%: */
     input[type=text], input[type=email]{
         width:100%;
     }
+/*
+   .nav-main{
+
+        font-size: 3vw;
+        float:right;
+        padding-top:3em; 
+        padding-left: 2.3em;
+        margin-left: 1em;
+    }*/
+   
 }
 
 
@@ -74,29 +84,30 @@ each column should have a width of 100%: */
 /*    .content{
         padding-left: 30%;
     }*/
-    .nav-main{
-        font-size: 2.3vw;
+   
+   .nav-main{
+       
+        font-size: 2.4vw;
+        float:left;
+        padding-left: 2em;
+        padding-bottom: 1em;
+     
     }
-/*    .content{
-        font-size: 3vw;    
-    }*/    
 
     .purchase a {
         font-size:1em;
         width:100%;
     }
-    .new-arrivals {
+
+/* .boxA {
         text-align:center;
         margin:auto;
         padding:0;
-    }
-
+    }*/
     .purchase h3{
     padding-top:0;
 }
-    .photos {
-        padding:0;
-    }
+   
 }
 /*.about{
     padding-left:2%;
@@ -107,26 +118,55 @@ fieldset {
     padding: 10px;
 }
 
-
-
 @media screen and (max-width: 500px) {
 
-    .nav-main{
-        font-size: 0.7em;
-    }
 
     .content{
     font-size: 1em;
-    }
-  .new-arrivals {
-        text-align:center;
-        margin:auto;
-        padding:0;
+    padding-bottom: 2em;
     }
 
+/*    .body{
+        width: 100%;
+    }*/
+
+    #page{
+      font-size: 1em; 
+      width:120%; 
+      padding-left: 1em;
+    }
+    #welcome{
+        font-size: 1em; 
+      width:120%; 
+      padding-left: 1em; 
+    }
     .purchase h3{
     padding-top:0;
 }
+
+   .nav-main{
+       
+        font-size: 3vw;
+        float:left;
+        padding-left: 1em;
+        padding-bottom: 1em;
+     
+    }
+    .title{
+        font-size: 1em;
+    }
+
+  .boxA,
+    .boxB,
+    .boxC
+    {
+ width:100%;
+    }
+
+   .container{
+    width: 100%;
+   }
+    
 
 }
 
@@ -136,6 +176,7 @@ fieldset {
     .logo{
         display:none; 
         }
+
 
 }
 
