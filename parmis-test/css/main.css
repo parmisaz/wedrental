@@ -421,7 +421,9 @@ img {
 }
 
 .write-review {
-    text-align: center; padding-top:2em;
+    text-align: center; 
+    padding-top:2em;
+    margin-top:10em;
 }
 
 .write-review-form {
@@ -439,12 +441,12 @@ img {
 
 .product-review-section{
     text-align: left; 
-    padding-top:3em;
+    padding-bottom:3em;
 }
 
 .product-review{
     margin: 0 auto;
-    padding-bottom:1.5em;
+    /*padding-bottom:1.5em;*/
 }
 
         /*star rating css 
