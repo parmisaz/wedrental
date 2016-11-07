@@ -70,10 +70,7 @@ each column should have a width of 100%: */
         padding-top:3em; 
         padding-left: 2.3em;
         margin-left: 1em;
-    }*/    
-
-
-   
+    }*/       
 }
 
 
@@ -152,7 +149,7 @@ fieldset {
 
    .nav-main{
        
-        font-size: 3vw;
+        font-size: 0.7em;
         float:left;
         padding-left: 1em;
         padding-bottom: 1em;
@@ -186,7 +183,7 @@ fieldset {
 
 @media screen and (min-width: 1600px) {
 
-    body{
+    .bg-index{
     background-size:cover;
     }
 
