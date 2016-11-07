@@ -12,7 +12,6 @@ html{
     body {
         margin: 0px;
         padding: 0px;
-        background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12pt;
         /*font-weight: 300;*/
@@ -34,6 +33,11 @@ h3 {
     margin-top:0.5em;
     margin-bottom:0.4em;
 }
+
+.index-bg{
+        background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
+}
+
 
 .nav-main{
  /*   text-decoration: none*/;
@@ -110,7 +114,7 @@ h3 {
     #page
     {
         overflow: hidden;
-        width: 1000px;
+        width: 80%;
         padding: 1.3em 100px 3em 100px;
         background: #FFF;
     }
@@ -161,14 +165,13 @@ h3 {
     padding-bottom: 0.4em;
     font-size: 1.2vw;   
     background-color: #DD8D78;
-    /*background-image: url("img/subtle_white_feathers.png");*/
-  
     padding-top: 6px;
     padding-left:42px;
     padding-right: 39px;
     transition: 0.2s;
     
 }
+
 .purchase a:hover {
     transition: 0.5s;
     /*color: #000000;*/
@@ -194,7 +197,7 @@ h3 {
 #welcome
     {
         overflow: hidden;
-        width: 1000px;
+        width: 80%;
         margin-top: 5em;
         padding: 2.3em 100px 3em 100px;
         background: #FFF;
@@ -217,7 +220,7 @@ h3 {
     .boxB,
     .boxC
     {
-        width: 240px;
+        max-width: 240px;
     }
 
     .boxA,
@@ -271,21 +274,62 @@ h3 {
 
 
 
-.footer, .page-wrap:after {
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -65px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+
+
+.site-footer, .page-wrap:after {
     height: 65px; 
 }
 
 
-.footer {
+.site-footer {
+    margin-top:8em;
     font-size:0.8em;
     padding:6px;
-    background: #ADD8E6;
+    background: #96063b;
     text-align:center;
-    background-image: url("img/seigaiha2.png");
+
 }
 
-.contact{
 
+.nav-footer{
+    /*background-color: #96063b; */
+  /*  padding: 0 1% 0 .3%;*/
+    text-decoration: none;
+    color: white;
+    font-size:.9em;
+
+}
+
+.nav-footer ul li {
+    display: inline-block;
+    padding: .5em .5em .5em .5em ;
+    margin-right: .05%;
+}
+.nav-footer  ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+.nav-footer ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+
+.contact{
     padding-left: 10%;
 }
 
