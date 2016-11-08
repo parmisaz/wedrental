@@ -38,7 +38,7 @@
       <p>Other pages:</p>
       <ul>
         <li><a href="user-flow/index.html">User-flows</a>
-        <li><a href="index.html">Style Guide</a>
+        <li><a href="style-guide.html">Style Guide</a>
         <li><a href="citations.html">Citations</a>
       </ul>
     </nav>
@@ -114,8 +114,8 @@
        
         <h3>Rendered element:</h3>
           <form> 
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="fname" style = "width: 300px;">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" style = "width: 300px;">
           </form>
 
       </section>
@@ -134,39 +134,49 @@
         <p>h1</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h1&gt; The Wedluxerental &lt;/h1&gt;</code> 
+
+        <code>&lt;div class="content"&gt;</code> 
+          <code>&lt;h1&gt; New Arrivals &lt;/h1&gt;</code> 
+        &lt;/div&gt;</code>
 
         <h3>Rendered element:</h3>
-        <h1>The Wedluxerental</h1>
+
+        <div class="content">
+          <h1>New Arrivals</h1>
+        </div>
 
 
         <h3>CSS selector:</h3>
         <p>h2</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h2&gt; Real Wedding Inspiration &lt;/h2&gt;</code> 
+
+        <code>&lt;div class="content"&gt;</code> 
+          <code>&lt;h2&gt; Affordable and Personalized Wedding&lt;/h2&gt;</code> 
+        &lt;/div&gt;</code>
 
         <h3>Rendered element:</h3>
-        <h2>Real Wedding Inspiration </h2>
+
+        <div class="content"><h2>Affordable and Personalized Wedding</h2></div>
 
        
         <h3>CSS selector:</h3>
         <p>h3</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;h3&gt; Rental: $11.00 CAD &lt;/h3&gt;</code>
+        <code>&lt;h3&gt; $455.99 &lt;/h3&gt;</code>
 
         <h3>Rendered element:</h3>
-        <h3>Rental: $11.00 CAD</h3>
+        <h3>$455.99</h3>
       </section>
 
       <section>
         <h2>Paragraphs</h2>
         
         <h3>Sample code:</h3>
-          <code>&lt;p&gt; Users are able to browse through the rental collection items, choose the item they are interested in, based on the event date and availability, they are able to rent the selected items or put on hold for 24 hours. They can also book to visit one of our showrooms in order to get in person consultation or view the items they are planning to rent. &lt;/p&gt;</code>
+          <code>&lt;p&gt; Welcome to WedRental! Find your dream wedding gown in our designer dress collection. We offer an array of affordable wedding dresses. Browse gowns from your favorite bridal designers in every fabric, color and silhouette and find the perfect look for your wedding! &lt;/p&gt;</code>
         <h3>Rendered element:</h3>
-          <p>Users are able to browse through the rental collection items, choose the item they are interested in, based on the event date and availability, they are able to rent the selected items or put on hold for 24 hours. They can also book to visit one of our showrooms in order to get in person consultation or view the items they are planning to rent. 
+          <p>Welcome to WedRental! Find your dream wedding gown in our designer dress collection. We offer an array of affordable wedding dresses. Browse gowns from your favorite bridal designers in every fabric, color and silhouette and find the perfect look for your wedding! 
           </p>
       </section>
 
@@ -175,48 +185,32 @@
         <!-- furniture items -->
 
           <h3>Sample code:</h3>
-            <code>&lt;ul&gt;
-            <code>&lt;li&gt; Furnitures &lt;/li&gt;</code>
-            <code>&lt;li&gt; Decore Elements &lt;/li&gt;</code>
-            <code>&lt;li&gt; Bridal Dress &lt;/li&gt;</code>
-            &lt;/ul&gt;</code>
+            <code>&lt;div class="full"&gt;</code> 
 
-        <ul>
-        <li>Furnitures</li>
-        <li> Decore Elements</li>
-        <li>Bridal Dress</li>
-        </ul>
+            <code>&lt;p&gt;
+            
+            <code>&lt;h3&gt; Item specifics:&lt;/h3&gt;</code>
+                <code>&lt;li&gt; Collection:2014 Fall Winter. &lt;/li&gt;</code>
+                <code>&lt;li&gt; Fabric:Organza  &lt;/li&gt;</code>
+                <code>&lt;li&gt; Season:Autumn/Spring  &lt;/li&gt;</code>
+                <code>&lt;li&gt; Custom Made Color:Yes &lt;/li&gt;</code>
+                <code>&lt;li&gt; Sleeve Length:Sleeveless &lt;/li&gt;</code>
 
+            &lt;/div&gt;</code>
+
+        <div class="full">
+          <p>
+          <h3>Item specifics:</h3>
+            <li>Collection:2014 Fall Winter.</li>
+            <li>Fabric:Organza </li>  
+            <li>Season:Autumn/Spring </li> 
+            <li>Custom Made Color:Yes </li>    
+            <li>Sleeve Length:Sleeveless </li> 
+          </p>
+        </div>
       </section>
-
-      <section>
-        <h2>Numbered Lists</h2>
-        <!-- order list-->
-       <!--  <h3>CSS selector:</h3>
-        <p>ol</p> -->
-        
-          <h3>Sample code:</h3>
-          <code>&lt;ol&gt;
-          <code>&lt;li&gt; Register/Sign in &lt;/li&gt;</code>
-          <code>&lt;li&gt; Search for item &lt;/li&gt;</code>
-          <code>&lt;li&gt; Select Quantitiy and price &lt;/li&gt;</code>
-          <code>&lt;li&gt; Add to Shoppping Cart&lt;/li&gt;</code>
-          <code>&lt;li&gt; Shipping Process &lt;/li&gt;</code>
-          <code>&lt;li&gt; Purchase &lt;/li&gt;</code>
-          &lt;/ol&gt;</code>
-
-
-        <ol>
-          <li>Register/Sign in</li>
-          <li>Search for item</li>
-          <li>Select Quantitiy and price</li>
-          <li>Add to Shoppping Cart</li>
-          <li>Shipping Process</li>
-          <li>Purchase</li>
-        </ol>
-
-
-      </section>
+      <!--------- We didnt use numbered list in this project ------!>
+    
 
     </section>
     <!-- // TEXT ELEMENTS SECTION -->
@@ -230,6 +224,21 @@
         <h3>CSS selector:</h3>
         <p>.nav-main</p>
 
+         <h3>Sample code:</h3>
+
+         <code>&lt;div class="header"&gt;</code> <br/>
+             <code>&lt;div class="col-2"&gt;</code> <br/>
+                <code>&lt;div class="logo"&gt;</code> <br/>
+                  <code>&lt;a href=&quot;index.html&quot;&gt;&lt;img src=&quot;img/other/logowhite.png&quot; alt=&quot;WedRental Logo&quot;&gt;&lt;/a&gt;</code><br/>
+                  &lt;/div&gt;<br/>
+                  &lt;/div&gt;<br/>
+
+          <code> &lt;div class=&quot;col-8 nav-main&quot;&gt;</code><br/>
+             <code>&lt;ul&gt;</code><br/>
+                <code>&lt;li&gt;&lt;a href=&quot;collection.html&quot;&gt;COLLECTION&lt;/a&gt;&lt;/li</code><br/>
+                <code>&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
         <div id="header">
           <div  class="col-2">
             <div id="logo">
@@ -253,25 +262,39 @@
         <h2>Product Listing</h2>
 
           <h3>CSS selector:</h3>
-          <p>product-list</p>
+          <p>.new-arrivals</p>
 
           <h3>Sample code:</h3>
-            <code>&lt;ul&gt;
-            <code>&lt;li&gt; Furnitures &lt;/li&gt;</code>
-            <code>&lt;li&gt; Decore Elements &lt;/li&gt;</code>
-            <code>&lt;li&gt; Cake Stands & Dessert Trays &lt;/li&gt;</code>
-            <code>&lt;li&gt; Bridal Dress &lt;/li&gt;</code>
-            <code>&lt;li&gt; Bridal Jewelry &lt;/li&gt;</code>
-            &lt;/ul&gt;</code>
+             <code>&lt;div class=&quot;col-3 new-arrivals&quot;&gt;</code>
+              
+              <code>&lt;a href=&quot;product-1.html&quot; class=&quot;clickable-image&quot;&gt;&lt;img src=&quot;img/product/dress2.jpg&quot;&gt;&lt;/a&gt;</code></br>
 
-        <ul class="product-list">
-           <li><a class="active" href="">Rental Collection</a></li>
-            <li><a href="">Furniture</a></li>
-            <li><a href="">Decore Elements</a></li>
-            <li><a href="">Cake Stands & Dessert Tray</a></li>
-            <li><a href="">Bridal Dress</a></li>
-            <li><a href="">Bridal Jewelry</a></li>
-        </ul>
+              <code>&lt;a href=&quot;product-1.html&quot; class=&quot;dress-description&quot;&gt;&lt;h3&gt;Dress by OSCAR DE LA RENTA&lt;/h3&gt;&lt;/a&gt;</code></br>
+              <code>&lt;p&gt;Ball-Gown Sweetheart Chapel Train Tulle Lace Wedding Dress&lt;/p&gt;</code>
+              <code></code>
+              <code></code>
+              <code></code>
+
+
+          <h3>Rendered element:</h3>
+          <div class="col-3 new-arrivals">
+          
+          <a href="product-1.html" class="clickable-image"><img src="img/product/dress2.jpg"></a>
+
+          <a href="product-1.html" class="dress-description"><h3>Dress by OSCAR DE LA RENTA</h3></a>
+          <p>Ball-Gown Sweetheart Chapel Train Tulle Lace Wedding Dress</p>
+          <br>
+          <h3>$455.99</h3>
+
+          <div class="details"> 
+            <a href=product-1.html >Details</a>
+          </div>
+
+          <div class="purchase"> 
+            <a href=purchase.html >Rent</a>
+          </div>
+
+        </div>
 
       </section>
 
@@ -279,7 +302,7 @@
     <!-- // COMBINED ELEMENTS SECTION -->
 
   <!-- Grid structure -->
-  <div class="grid">
+<!--   <div class="grid">
      <div class="col-1-3">
        <div class="module">
         <ul class="side_nav">
@@ -298,9 +321,9 @@
       <h3>Main Content</h3>
        <!--  <p>Rental Collection Page is two column: a main content area which is 2/3 the width and side bar on the left which is 1/3 width. The main content includes product description, image, drop-down selection and submit button</p>  
        -->
-       <img id src="images/dress1.jpg">
+      <!--  <img id src="images/dress1.jpg">
        <img id src="images/dress2.jpg">
-       <img id src="images/dress3.jpg">
+       <img id src="images/dress3.jpg"> -->
 
      </div>
    </div>
