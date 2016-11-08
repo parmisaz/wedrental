@@ -124,6 +124,15 @@ each column should have a width of 100%: */
     .details h3{
     padding-top:0;
     }    
+
+    .review-submit-button{
+        font-size:1em;
+    }
+
+    .description{
+        text-align: center;
+        padding-left:0;
+    }
 }
 
 
