@@ -149,13 +149,13 @@ fieldset {
     }
 
     #page{
-      font-size: .7em; 
+      font-size: 1em; 
       width:100%; 
       /*padding-left: 1em;*/
     }
 
     #welcome{
-        font-size: .8em; 
+        /*font-size: .8em; */
 
       width:100%; 
       /*padding-left: 1em; */

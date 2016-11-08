@@ -239,7 +239,7 @@ transition: 0.5s;
         overflow: hidden;
         width: 80%;
         margin-top: 5em;
-        padding: 2.3em 100px 3em 100px;
+        padding: 2.3em 100px 1em 100px;
         background: #FFF;
     }
 
@@ -328,6 +328,7 @@ transition: 0.5s;
 
 .divider-symbol{
     max-width: 10em;
+    padding-bottom:2em;
 }
 
 .page-title-spacing{
@@ -443,8 +444,8 @@ img {
     background-color: #C6AF6D;
     padding:1.1em .2em 1.1em .2em;
     transition: 0.2s;
-
 }
+
 .review-submit-button:hover {
     transition: 0.5s;
     text-decoration: none;
