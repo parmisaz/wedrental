@@ -72,13 +72,14 @@
         <h2>In-text link</h2>
 
         <h3>CSS selector:</h3>
-        <p>.text-link</p>
+        <p>.dress-description</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="text-link"&gt;VIEW ALL&lt;/a&gt;</code>
+        <code>&lt;a href="product-1.html" class="dress-descriptionk"&gt;Dress by OSCAR DE LA RENTA&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="text-link" href ="View_all.html">VIEW ALL</a>
+        <!-- <a class="text-link" href ="View_all.html">VIEW ALL</a> -->
+        <a href="product-1.html" class="dress-description"><h3>Dress by OSCAR DE LA RENTA</h3></a>
       </section>
 
     <!--------- Submit/Reset Button styling section ------>
@@ -86,13 +87,16 @@
         <h2>Submit/Reset Buttons</h2>
 
         <h3>CSS selector:</h3>
-        <p>.submit_button</p>
+        <p>.details</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="submit_button"&gt;Submit&lt;/a&gt;</code>
+        <code>&lt;a href="product1.html" class="details"&gt;Submit&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="submit_button" href="#">Submit</a>
+        <!-- <a class="submit_button" href="#">Submit</a> -->
+        <span class="details">
+          <a  href="product1.html">Payment</a>
+        </span>
       </section>
 
       <!------------ text input field and a label -------->
@@ -224,19 +228,24 @@
         <h2>Main Navigation</h2>
     <!----------Navigation Bar -------->
         <h3>CSS selector:</h3>
-        <p>nav-wrapper</p>
+        <p>.nav-main</p>
 
-        <nav>
-            <div id="main_nav">
-              <ul>
-              <li><a class="active" href="">Ideas</a></li>
-              <li><a href="">Real Weddings</a></li>
-              <li><a href="">Rental Collection</a></li>
-              <li style="float:right"><a href="">Log out</a></li>
-              </ul>
-           </div>
-        
-        </nav>
+        <div id="header">
+          <div  class="col-2">
+            <div id="logo">
+              <a href="index.html"><img src="img/other/logowhite.png" alt="WedRental Logo"></a>
+            </div>
+          </div>
+
+        <div class="col-8 nav-main">  
+          <ul>        
+            <li><a href="collection.html">COLLECTION</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+        </div>
 
       </section>
 
