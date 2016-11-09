@@ -77,7 +77,6 @@ h3 {
 
 
 .nav-main{
-    /*position: absolute;*/
     top:1em;
     right: 1em;
     font-size:.9em;
@@ -117,7 +116,13 @@ h3 {
 /* Header                                                                        */
 /*********************************************************************************/
 
+.navigation-menu {
+    position:fixed;
+    z-index:100;
+}
+
 .header-wrapper{
+    
     overflow: hidden;
     height: 42em;
 }
@@ -257,7 +262,7 @@ transition: 0.5s;
 
 #welcome
     {
-        overflow: hidden;
+        /*overflow: hidden;*/
         width: 80%;
         margin-top: 5em;
         padding: 2.3em 100px 1em 100px;
