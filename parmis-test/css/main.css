@@ -49,6 +49,14 @@ h3 {
     float:right;
 }
 
+.text-align-left {
+    text-align:left;
+}
+
+.text-align-right {
+    text-align:right;
+}
+
 .bg-index{
     background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
    
@@ -540,6 +548,44 @@ img {
     width:100%;
 }
  
+
+
+ /*---------product-purchase--------------*/
+
+.product-details{
+    display: inline-block; 
+    vertical-align: top; 
+    padding: 3em 0 0 2em; 
+    position: relative;
+    text-align:left;
+}
+
+.product-title-price {
+    display:inline-block; 
+    vertical-align: top;
+    padding-left:1em;
+}
+
+.no-list-style {
+    list-style-type: none; 
+    padding-left:0;
+}
+
+.title-price-padding {
+    padding-bottom:1.2em;
+}
+
+.payment-details {
+    list-style-type: none; 
+    padding-left: 0;
+    padding-top:1em; 
+    padding-bottom:1em;
+}
+
+.payment-form-padding {
+    padding-left:0.5em;
+}
+
 /*----------------style guide----------------*/
 hr.style { 
     margin-top: 1em;

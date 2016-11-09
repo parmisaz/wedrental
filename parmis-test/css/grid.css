@@ -61,6 +61,10 @@ each column should have a width of 100%: */
     [class*='form-']{
         width:100%;
     }
+    .payment-form-padding, .product-details, .product-title-price{
+        padding-left:0;
+    }
+
 
 }
 
