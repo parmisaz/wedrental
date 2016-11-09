@@ -57,6 +57,12 @@ h3 {
     text-align:right;
 }
 
+.center {
+    width: 50%;
+    margin:0 auto;
+    text-align:center;
+}
+
 .bg-index{
     background:#cfd0d4 url("img/bg.png") no-repeat center top;
    
@@ -155,12 +161,6 @@ h3 {
     text-align:center;
     padding-right:1.25em;
 
-}
-
-.center {
-width: 50%;
-margin:0 auto;
-text-align:center;
 }
 
 .new-arrivals{
@@ -462,7 +462,6 @@ img {
 
 .write-review-form {
     width:80%; height:5em;
-    padding-bottom:5em;
 }
 
 .review-submit-button{
