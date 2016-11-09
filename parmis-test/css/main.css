@@ -58,21 +58,21 @@ h3 {
 }
 
 .bg-index{
-    background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
+    background:#cfd0d4 url("img/bg.png") no-repeat center top;
    
 }
 
 .bg-collection{
-     background:#cfd0d4 url("img/bg3.jpg") no-repeat center top;
+     background:#cfd0d4 url("img/bg3.png") no-repeat center top;
 }
 
 
 .bg-contact{
-     background:#cfd0d4 url("img/bg4.jpg") no-repeat center top;
+     background:#cfd0d4 url("img/bg4.png") no-repeat center top;
 }
 
 .bg-product-1{
-     background:#cfd0d4 url("img/bg5.jpg") no-repeat center top;
+     background:#cfd0d4 url("img/bg5.png") no-repeat center top;
 }
 
 
@@ -584,6 +584,13 @@ img {
 
 .payment-form-padding {
     padding-left:0.5em;
+}
+
+
+/*------------Contact--------------*/
+
+.store-info {
+    padding: 2em 0 4em 0;
 }
 
 /*----------------style guide----------------*/

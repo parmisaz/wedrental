@@ -80,34 +80,30 @@
 	<div class="col-7">
 
 		<form action="checkout.html" >
-			<h2>Shipping Information</h2><br>
+			<h2>Credit Card Information</h2><br>
 
+			<div class="full left">
+			<h3 class="form-10of10 left text-align-left">Name (As appears on card): </h3>
+			</div>
 			<div class="full">
-			First Name: <br>
-			<input type="text" name="first_name" placeholder="First name" class="form-5of10">
-			<input type="text" name="last_name" placeholder="Last name" class="form-5of10">
+			<input type="text" name="first_name" placeholder="Cardholder Name" class="form-10of10">
 			</div>
 
+			<div class="full left">
+			<h3 class="form-10of10 left text-align-left">Card Number: </h3>
+			</div>
 			<div>
-			<input type="text" name="company" placeholder="Company (optional)" class="form-10of10">
+			<input type="text" name="company" placeholder="Card Number" class="form-10of10">
 			</div>
 
+			<div class="full left">
+			<h3 class="form-7of10 left text-align-left">Expiry Date: </h3>
+			<h3 class="form-3of10 left text-align-left payment-form-padding">Security Code: </h3>
+			</div>
 			<div>
-				<input type="text" name="address" placeholder="Address" class="form-7of10">
-				<input type="text" name="apt" placeholder="Apt, Suite" class="form-3of10">
+				<input type="text" name="address" placeholder="Expiry Date" class="form-7of10">
+				<input type="text" name="apt" placeholder="Security Code" class="form-3of10">
 			</div>
-
-			<div>
-				<input type="text" name="city" placeholder="City" class="form-7of10">
-				<input type="text" name="country" placeholder="Country" class="form-3of10">
-			</div>
-
-			<div>
-				<input type="text" name="province" placeholder="Province" class="form-5of10">
-				<input type="text" name="postal" placeholder="Postal Code" class="form-5of10">
-			</div>
-
-			<input type="text" name="phone" placeholder="Phone number" class="form-10of10"><br>
 
 		</form>
 
@@ -122,7 +118,7 @@
 		
 		<div class="col-7 product-title-price">
 		<ul class="no-list-style">
-			<li class="title-price-padding">Dress Name</li>
+			<li class="title-price-padding"><h2>Dress Name<h2></li>
 			<li class="bold">$1999.99 CAD</li>
 		</ul>
 		</div><br><br>
@@ -130,23 +126,23 @@
 		<hr><br>
 
 		<ul class="payment-details">
-			<li class="payment-details">Subtotal:</li>
-			<li class="payment-details">Shipping:</li>
-			<li class="payment-details">Taxes:</li>
+			<li class="col-5 payment-details bold">Subtotal:</li><li class="col-5 text-align-right">$1999.99</li>
+			<li class="col-5 payment-details bold">Shipping:</li><li class="col-5 text-align-right">$19.99</li>
+			<li class="col-5 payment-details bold">Taxes:</li><li class="col-5 text-align-right">$161.60</li>
 		</ul><br>
 
 		<hr><br>
 
 		<ul class="no-list-style">
-			<li>Total:</li>
+			<li class="col-5 payment-details bold">Total:</li><li class="col-5 text-align-right">$2181.58</li>
 		</ul><br><br>
 
-		<span class="purchase payment-details">
-			<a  href="product-1.html">Back</a>
+		<span class="purchase left payment-details">
+			<a  href="purchase.html">Back</a>
 		</span>
 
-		<span class="details payment-details">
-			<a  href="product.html">Payment</a>
+		<span class="details left payment-details">
+			<a  href="confirmation.html">Place Order</a>
 		</span>
 		
 	</div>
