@@ -462,12 +462,13 @@ img {
 
 .write-review-form {
     width:80%; height:5em;
+    padding-bottom:5em;
 }
 
 .review-submit-button{
     text-decoration: none;
     color: #ffffff;
-    font-size: 1vw;   
+    font-size: 1em;   
     background-color: #C6AF6D;
     padding:1.1em .7em 1.1em .7em;
     transition: 0.2s;

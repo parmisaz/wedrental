@@ -204,8 +204,22 @@ fieldset {
 @media screen and (min-width: 1600px) {
 
     .bg-index{
-    background-size:cover;
+      background-size:cover;
     }
+
+    .bg-collection{
+      background-size:cover;
+    }
+
+
+    .bg-contact{
+      background-size:cover;
+    }
+
+    .bg-product-1{
+      background-size:cover;
+    }
+
 
 }
 
