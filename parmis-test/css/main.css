@@ -51,6 +51,20 @@ h3 {
 
 .bg-index{
     background:#cfd0d4 url("img/bg.jpg") no-repeat center top;
+    size:50%;
+}
+
+.bg-collection{
+     background:#cfd0d4 url("img/bg3.jpg") no-repeat center top;
+}
+
+
+.bg-contact{
+     background:#cfd0d4 url("img/bg4.jpg") no-repeat center top;
+}
+
+.bg-product-1{
+     background:#cfd0d4 url("img/bg5.jpg") no-repeat center top;
 }
 
 
