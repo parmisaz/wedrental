@@ -592,11 +592,16 @@ img {
     padding-left:0.5em;
 }
 
+.confirmation-message {
+    padding-left:0;
+    padding-bottom:4em;
+}
+
 
 /*------------Contact--------------*/
 
 .store-info {
-    padding: 2em 0 4em 0;
+    padding: 2em 0 5em 0;
 }
 
 /*----------------style guide----------------*/
