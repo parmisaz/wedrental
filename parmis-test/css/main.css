@@ -399,7 +399,7 @@ img {
 .product-page{
     max-width:1200px; 
     margin:0 auto; 
-    padding:3em;
+    padding:3em 0 4.5em 0;
 }
 
 .product-title-margins{
@@ -448,6 +448,7 @@ img {
     vertical-align: top;
     text-align:left;
     padding-left:3em;
+    padding-bottom:1em;
 
 }
 
